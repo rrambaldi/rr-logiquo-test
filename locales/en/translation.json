@@ -1,0 +1,4291 @@
+{
+  "actions": {
+    "AddItem": "Aggiungi",
+    "Back": "Indietro",
+    "Cancel": "Annulla",
+    "Generate": "Crea Report",
+    "Generate CSV": "Genera CSV",
+    "Generate HTML": "Genera HTML",
+    "Generate PDF": "Genera PDF",
+    "Generate XLSX": "Genera XLSX",
+    "Pause": "Pausa",
+    "RefreshUsers": "Aggiorna utenti",
+    "RemoveRecord": "Cancella",
+    "RemoveRelation": "Rimuovi",
+    "Start": "Avvia",
+    "Stop": "Ferma",
+    "addChildToControlPlan": "Aggiungi il controllo ed i suoi figli",
+    "addToControlPlan": "Aggiungi questo controllo",
+    "appendChild": "Aggiungi controllo figlio",
+    "approveAll": "Approva tutti",
+    "bulkApprove": "Approva selezionati",
+    "consolidate": "Consolida",
+    "doAssignUser": "Assegna",
+    "assignUser": "Assegna",
+    "doEnableDisable": "Attiva/Disattiva",
+    "doPause": "Pausa",
+    "doUnPause": "Riprendi",
+    "duplicate": "Duplica",
+    "importExport": "Importa/Esporta",
+    "nextTicket": "Sucessivo",
+    "prevTicket": "Precedente",
+    "relations_addItem": "Aggiungi",
+    "relations_removeRecord": "Rimuovi elemento",
+    "relations_removeRelation": "Rimuovi relazione",
+    "relaunch": "Rilancia",
+    "simulate": "Simula"
+  },
+  "buttons": {
+    "CreateCampaignFromSimulation": "Crea campagna da Simulazione",
+    "StartSaving": "Registra attività",
+    "StopSaving": "Ferma registrazione",
+    "Upload": "Carica",
+    "addAll": "Aggiungi tutti",
+    "addNewItem": "Aggiungi nuovo elemento",
+    "addSelected": "Aggiungi selezionati",
+    "applyChanges": "Applica modifiche",
+    "approve": "Approva",
+    "back": "Indietro",
+    "back-to-dashboard": "Dashboard",
+    "back-to-list": "Indietro",
+    "buttonConfirmApprove": "Conferma approvazione",
+    "buttonConfirmSend": "Conferma invio",
+    "cancel": "Annulla",
+    "changePassword": "Cambia password",
+    "cleanTranslations": "Resetta registro",
+    "cleanupAcmPlan": "Pulisci attività ACM",
+    "confirm": "Confermare",
+    "confirmRemovalMany": "Conferma la rimozione di  {{count}} elementi",
+    "confirmRemovalMany_plural": "Conferma la rimozione di  {{count}} elementi",
+    "contactUs": "Contattaci",
+    "createFirstRecord": "Crea il primo elemento",
+    "filter": "Filtra",
+    "filterActive": "Filtro ({{count}})",
+    "login": "Accedi",
+    "logout": "Esci",
+    "news": "News",
+    "resetFilter": "Resetta filtro",
+    "save": "Salva",
+    "seeTheDocumentation": "Vedi: <1>La documentazione</1>"
+  },
+  "components": {
+    "DropZone": {
+      "acceptedSize": "Dimensione massima: {{maxSize}}",
+      "acceptedType": "Supporta: {{mimeTypes}}",
+      "placeholder": "Trascina qui il tuo file o fai clic per sfogliarlo",
+      "unsupportedSize": "Il file {{fileName}} è troppo grande",
+      "unsupportedType": "Il file {{fileName}} ha un tipo non supportato: {{fileType}}"
+    },
+    "LanguageSelector": {
+      "availableLanguages": {
+        "cimode": "Modalità CI",
+        "en": "Inglese",
+        "it": "Italiano"
+      }
+    },
+    "Login": {
+      "changePassword": "Cambia password",
+      "loginButton": "Accedi",
+      "properties": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "welcomeHeader": "Benvenuto",
+      "welcomeMessage": "la tua applicazione che ti consente di gestire tutti i tuoi dati in un unico luogo"
+    }
+  },
+  "controlset_attributeset": {
+    "actions": {
+      "Back": "Indietro",
+      "new": "Aggiungi un set di attributi"
+    }
+  },
+  "functions": {
+    "bulkDelete": "Elimina selezionati",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "list": "Lista",
+    "new": "Crea nuovo",
+    "show": "Mostra"
+  },
+  "labels": {
+    "AssignUser": "Assegna valutazione controllo",
+    "filter_source_controlplan": "Seleziona piano dei controlli",
+    "filter_companies": "Seleziona aziende",
+    "filter_domains": "Filtra domini applicativi",
+    "filter_technology_match": "Filtra abbinamento tecnologico",
+    "filter_organizational_match": "Filtra abbinamento organizzativo",
+    "filter_compliance_match": "Filtra abbinamento conformità",
+    "byMaturity": "Prefenza per grado maturità",
+    "includeNonMatched": "Includi non abbinati",
+    "includeACM": "Includi attività ACM",
+    "TotalRecords {{count}}": "Righe totali {{count}}",
+    "origin": "Origine",
+    "ACMPlanReport": "",
+    "ACMPlanSubTitle": "Filtra i dati per generare il report",
+    "AcmActivityStatusChanged": "Stato Attività ACM modificato con successo",
+    "AllRecords": "Tutti",
+    "AuditUpload": "Monitoraggio upload",
+    "CampaignControlUsers": "Dettaglio controlli per utente",
+    "CampaignReport": "Report Campagna",
+    "CampaignReportSubTitle": " ",
+    "CampaignSimulation": "",
+    "CampaignUpdatesReport": " ",
+    "CampaignUpdatesReportSubTitle": "Filtra i dati per generare il report",
+    "CampaignUsers": "",
+    "CampaignUsersSubTitle": "Dettaglio dei controlli per dominio applicativo, organizzazione, piano dei controlli e set di controlli",
+    "ChooseItemHeader": "Aggiungi un elemento",
+    "Control Match Types": "Tipologia Abbinamenti Controlli",
+    "Control Matches": "Abbinamento controlli",
+    "ControlPlanControlAttributes": "Attributi per Controllo",
+    "DeleteRelationHeader": "Scegli cosa cancellare",
+    "DownloadCampaignTickets": "Download prassi e metriche campagna",
+    "DownloadControlMatches": "Scarica Abbinamento Controlli",
+    "DownloadControlset": "Scarica Set Controlli",
+    "DownloadCurrentFile": "Scarica il file traduzioni corrente",
+    "DownloadCurrentIcons": "Scarica le icone correnti",
+    "DownloadCurrentStylesheet": "Scarica il file di stile corrente",
+    "DownloadResource": "Scarica Risorsa",
+    "DownloadRoles": "Scarica Ruoli",
+    "DownloadTable": "Scarica tabella",
+    "DropTheExcelToUpload": "Trascina il file excel",
+    "DropTheFileToUpload": "Carica nuovo file traduzioni",
+    "DropTheIconsToUpload": "Trascina le icone da caricare",
+    "DropTheStyleSheetToUpload": "Carica nuovo foglio di stile",
+    "EnabledControls": "Controlli nel piano",
+    "EnterTheCountryCode": "Seleziona la lingua",
+    "Equal": "Uguale del livello atteso",
+    "Generate CSV": "Genera CSV",
+    "Generate HTML": "Genera HTML",
+    "Generate PDF": "Genera PDF",
+    "Generate XLSX": "Genera XLSX",
+    "GenerateReport": "Report",
+    "Greater": "Maggiore del livello atteso",
+    "GreaterOrEqual": "Maggiore o Uguale del livello atteso",
+    "ImportExportSets": "Carica/Scarica Set",
+    "LastCommit": "Ultimo Commit",
+    "Locales": "Localizzazione",
+    "Lower": "Minore del livello atteso",
+    "LowerOrEqual": "Minore o Uguale del livello atteso",
+    "ManageIcons": "Gestisci icone",
+    "ManageLayouts": "Gestione layouts",
+    "ManageLocales": "Gestione traduzioni",
+    "ManageResources": "Gestione risorse",
+    "ManageStylesheet": "Gestione fogli di stile",
+    "NoAttributes": "Nessun attributo definito",
+    "NoCampaignData": "La campagna non ha ancora controlli",
+    "Parameters": "Parametri di configurazione",
+    "RemediationReport": "Report Piano di remediation",
+    "RemediationReportSubTitle": " ",
+    "Report Templates": "Template Dei Report",
+    "ReportCaption": "Intestazione Report",
+    "ResourceToWorkWith": "Risorsa Selezionata",
+    "SelectedRecords": "Record Selezionati",
+    "SetsToWorkWith": "Set selezionato",
+    "Simulate": "Simulazione campagna",
+    "Template Parts": "Componenti Dei Report",
+    "ToggleMissing": "Filtra errori",
+    "UploadDownloadArea": "Gestisci i caricamenti",
+    "UploadDownloadControlMatches": "Carica/Scarica Abbinamento Controlli",
+    "UploadDownloadControlset": "Caricamento controlset",
+    "UploadDownloadResources": "Carica/Scarica Risorse",
+    "UploadDownloadRoles": "Carica/Scarica Ruoli",
+    "UploadRoles": "Carica Ruoli",
+    "UploadStatus": "Status Caricamento",
+    "Version": "Versione",
+    "acm_criticalities": "Criticità ACM",
+    "acm_link": "Link ACM",
+    "acm_plans": " Piani ACM",
+    "acm_sources": "Fonti ACM",
+    "active-false": "No",
+    "active-true": "Si",
+    "appdomain_attributes": "Set Attributi",
+    "appdomain_attributetypes": "Attributi",
+    "appdomain_companies": "Organizzazioni per dominio",
+    "appdomain_user_roles": "Utenti per dominio",
+    "appdomains": "Domini applicativi",
+    "applications": "Applicazioni",
+    "approveAll_subtitle": "Approva tutte le attività ACM indicate",
+    "asset_classes": "Classi di asset",
+    "assets": "Assets",
+    "assigned_by_id": "Assegnato da",
+    "attributesets": "Attributi",
+    "attributetypes": "Tipi Attributi",
+    "audit_classes": "Classi di audit",
+    "audit_upload": "Monitoraggio upload",
+    "autodisable.false": "No",
+    "autodisable.true": "Si",
+    "automated_notifications.false": "No",
+    "automated_notifications.true": "Si",
+    "bundling.false": "No",
+    "bundling.true": "Si",
+    "campaign-monitor": "Monitoraggio campagne",
+    "campaign-revision": "Revisione Campagne",
+    "campaign_id": "Campagna",
+    "campaign_types": "Tipo di campagna",
+    "campaign_types-ASSESSMENT": "Assessment",
+    "campaign_types-AUDIT": "Audit",
+    "campaigns": "Gestione campagne",
+    "companies": "Organizzazioni",
+    "company": "Organizzazione",
+    "company_domains": "Domini applicativi",
+    "company_types": "Tipo organizzazione",
+    "confirm": "Conferma",
+    "confirmAction": "Conferma",
+    "confirmUnsavedChanges": "Hai delle modifiche non salvate, sei sicuro di voler continuare?",
+    "consolidated_controlplans": "Piani Consolidati",
+    "control_attributetypes": "Tipi Attributi",
+    "control_level": "Livello",
+    "control_match_types": "Tipologia abbinamenti controlli",
+    "control_matches": "Abbinamenti controlli",
+    "control_metric": "Metriche per Livello",
+    "control_parent_id": "Controllo padre",
+    "controlfamily": "Famiglie Controlli",
+    "controlplans": "Piani di controllo",
+    "controls": "Set di controlli",
+    "controlset_attributeset": "Attributi",
+    "controlset_metric": "Metriche principali",
+    "controlset_metric_riskvalues": "Metriche/valori di rischio",
+    "controlsets": "Set di controlli",
+    "cost_types": "Tipo Costo",
+    "costs": "Costi",
+    "cp_control_attributetypes": "Associazione Tipi Attributi",
+    "cp_control_metric": "Metriche",
+    "cp_controlplans_controlsets": "Set di controllo",
+    "cp_controls": "Controlli",
+    "cp_controlset_attributeset": "Associazione Set Attributi",
+    "cp_controlset_metric": "Metriche principali",
+    "cp_controlsets": "Piani per set di controlli",
+    "cp_metric_riskvalues": "Risk values for each Metrics",
+    "cpms": "CPMS",
+    "cpms_parameters": "Parametri configurazione CPMS",
+    "created_at": "Creato",
+    "created_by": "Creato da",
+    "domains": "Domini",
+    "domaintype-GENERIC": "Generico",
+    "domaintype-SPECIFIC": "Specifico",
+    "effectivness_validation": "Verifica Efficacia",
+    "email_templates": "Template email",
+    "files": "Allegati",
+    "filled-false": "No",
+    "filled-true": "Si",
+    "help": "Aiuto",
+    "inspection_constraint": "Vincolo visita ispettiva",
+    "is_paused-false": "No",
+    "is_paused-true": "Si",
+    "is_primary.false": "No",
+    "is_primary.true": "Si",
+    "meta_asset": "Meta Asset",
+    "meta_assets": "Meta Asset",
+    "metric_riskvalues": "Valore Metrica",
+    "metrics": "Metriche",
+    "metricvalues": "Valori Metriche",
+    "multiselect-false": "No",
+    "multiselect-true": "Si",
+    "nav_acm_plans": "Piani ACM",
+    "nav_campaigns": "Campagne",
+    "nav_controlplans": "Piani di controllo",
+    "nav_controlsets": "Set di controlli",
+    "nav_dashboard": "Home",
+    "nav_domains": "Domini applicativi",
+    "nav_monitoring": "Attività monitoraggio",
+    "nav_parameters": "Parametri",
+    "nav_parameters_custom": "Parametri di configurazione",
+    "nav_remediation": "Piani di remediation",
+    "nav_revision": "Revisione campagne",
+    "nav_settings": "Settings",
+    "nav_submission": "Valutazione controlli e PR",
+    "nav_users": "Organizzazioni/Utenti",
+    "new_assets": "Nuovi assets",
+    "new_attachments": "Nuovi allegati",
+    "new_metricvalue_id": "Nuovo livello di maturità",
+    "new_practice": "Nuova prassi",
+    "news": "Notizie",
+    "news feed": "Aggiornamenti",
+    "notes": "Note",
+    "parameters": "Parametri",
+    "primary-false": "No",
+    "primary-true": "Si",
+    "regulatory_scope_id": "Ambito normativo",
+    "regulatory_scopes": "Ambiti normativi",
+    "relations_chooseItemHeader": "Seleziona",
+    "relations_customModalTitle": "Visualizza",
+    "relations_deleteRelationHeader": "Cancella relazione",
+    "remediation_plans": "Piani di remediation",
+    "remediation_riskmetric_tasks": "Tasks metriche di Remediation",
+    "remediation_tasks-evaluation": "Valutazione Piano di Remediation",
+    "remediation_to_acm": "Da Rem. ad ACM",
+    "report-sub-title": "Aggiungi una descrizione in testata al report",
+    "report-title": "Genera Report",
+    "report_templates": "Template dei report",
+    "risk_metric": "Associazione Richi/Metriche",
+    "riskindexes": "Indici di rischio",
+    "riskvalues": "Valori di rischio",
+    "role_id": "Ruolo",
+    "roles": "Ruoli",
+    "root_cause": "Analisi Cause",
+    "selected": {
+      "false": "No",
+      "true": "Si"
+    },
+    "show_reference_values": {
+      "false": "No",
+      "true": "Si"
+    },
+    "status-APPROVED": "Approvato",
+    "status-CANCELLED": "Annullato",
+    "status-COMPLETED": "Completato",
+    "status-CREATED": "Creato",
+    "status-ENDED": "Chiuso",
+    "status-PAUSED": "In pausa",
+    "status-REJECTED": "Respinto",
+    "status-TOBE_APPROVED": "Da approvare",
+    "status-TOBE_EXECUTED": "Da eseguire",
+    "status-WORKING": "In lavorazione",
+    "survey_types": "Tipologie Rilievo",
+    "template_parts": "Componenti del template",
+    "ticket": "Controllo",
+    "ticket_applications": "Applicazioni",
+    "ticket_metricvalues": "Livello metrica",
+    "ticket_notes": "Note",
+    "tickets": "Valutazione controlli",
+    "timings": "Tempistiche",
+    "updated_at": "Aggiornato",
+    "user_companies": "Utenti",
+    "user_id": "Utente",
+    "user_roles": "Ruoli Utente",
+    "user_roles-modal-domain": "Utenti per dominio",
+    "user_roles-modal-user": "Utenti per ruolo",
+    "users": "Utenti",
+    "workgroup_executors": "GDL - Esecutori"
+  },
+  "messages": {
+    "NoUsersEdit": "Non ancora modificato",
+    "NoMetricValue": "Non valutata",
+    "TotalRecords {{count}}": "Totale elementi: {{count}}",
+    "messages.RefreshTokenError": "Sessione scaduta, uscita forzata",
+    "ACM Reference {{remediation}}\n{{description}}": "{{remediation}}\n{{description}}",
+    "ACM to shift {{controlCode}} - {{control}} to maturity level {{maturityLevel}}": "Controllo {{controlCode}} - {{control}} a livello maturità '{{maturityLevel}}'",
+    "AcmActivitiesApproved": "Approvate con successo {{count}} attività ACM",
+    "AcmActivityApproved": "Una attività ACM approvata con successo",
+    "AcmActivityStatusChanged": "Stato Attività ACM modificato con successo",
+    "AcmPlanActivityCreated": "Attività ACM creata con successo",
+    "AcmPlanActivityCreationError": "Si è verificato un errore durante la creazione dell'attività ACM",
+    "AddAll": "Aggiungi tutti",
+    "Added {{rows}} controls to control plan": "{{rows}} controlli aggiunti",
+    "AtLeastOneRecord": "Almeno un elemento deve rimanere nella lista",
+    "EmailTemplateNotFound": "Modello di email non trovato",
+    "CannotBeLessThanOriginal": "La data non può essere precedente all'originale",
+    "CannotBeSameAsOriginal": "La data può essere uguale all'originale",
+    "CannotStopMissing": "Non è possibile fermare il piano di remediation perché ci sono {{num}} task non completati",
+    "DefaultAcmSourceNotFound": "Non è stata trovata nessuna fonte ACM di default, creane una (Piano di Remediation)",
+    "DownloadControlMatches": "Scarica Abbinamento Controlli",
+    "DownloadControlset": "Scarica Set Controlli",
+    "DownloadResource": "Scarica Risorsa",
+    "DownloadRoles": "Scarica Ruoli",
+    "EnabledControls": "Controlli nel piano",
+    "EnterValidLanguage": "Scegli una lingua",
+    "ErrorUploadingUnzippingIcons": "Si è verificato un errore durante il caricamento o l'estrazione delle icone",
+    "IconsUploaded": "Icone caricate con successo",
+    "ImportExportMessage": "Carica/Scarica i set",
+    "ImportExportStatus": "Status",
+    "InvalidFile": "File non valido o assente",
+    "InvalidRelationType": "Tipo non valido per la relazione. Tipi di relazione validi: type {{validTypes}}",
+    "InvitationLinkSent": "Invito link inviato",
+    "JoinKeyMissing": "Le joinKey devono essere definite per target",
+    "JunctionMissing": "Le junction devono essere definite per una relazione molti-a-molti",
+    "JunctionRecordMissing": "Impossibile trovare junction record.",
+    "JunctionResourceIdMissing": "Le relazioni “junction.throughResourceId” devono essere definite per le relazioni molti-a-molti.",
+    "JunctionResourceMissing": "La risorsa {{junctionResourceId}} non è presente. Sei sicuro di averla registrata in AdminJS?",
+    "LastUploadedFile {{filename}} by {{user}} at {{uploaded_at}}": "Ultimo file caricato {{filename}} da {{user}} il {{uploaded_at}}",
+    "MissingCloseNote": "È obbligatorio inserire una nota di chiusura",
+    "MissingRecordId": "Il parametro “recordId” manca nei parametri di query della richiesta.",
+    "NoAcmActivitiesApproved": "Nessuna attività ACM da approvare",
+    "NoAttributesDefined": "Nessun attributo definito",
+    "NoAttributesSet": "Nessun attributo definito",
+    "NoCampaignData": "La campagna non ha ancora controlli, aggiungi piani e domini",
+    "NoControlplans": "Non sono stati assegnati piani di controllo",
+    "NoControlsetSelected": "Nessun set di controlli selezionato",
+    "NoData": "Nessuna nota",
+    "NoDomains": "Non sono stati assegnati domini applicativi",
+    "NoFileUploaded": "Nessun file caricato",
+    "NoIconsToDownload": "Nessuna icona da scaricare",
+    "NoIconsToUpload": "Nessuna icona da caricare",
+    "NoMetricValueSelected": "Nessuna metrica selezionata",
+    "NoMetricvalueSelected": "Nessun valore selezionato",
+    "NoRecords": "Nessun elemento",
+    "NoRemediationDescription": "Nessuna descrizione di remediation",
+    "NoRemediationTitle": "Nessun titolo di remediation",
+    "NoRiskOrMetricFilter": "Seleziona almeno un indice di rischio o una metrica (non entrambi)",
+    "NoRole": "Nessun ruolo",
+    "NoTickets": "Nessun controllo",
+    "NotAssigned": "Non assegnato",
+    "NotSavingTranslations": "Non stai salvando messaggi delle traduzioni",
+    "Nothing added": "Nessun controllo aggiunto",
+    "Parameters": "Parametri",
+    "QueryParamsMissing": "Parametri di query insufficienti. Assicurati di non modificare la barra degli indirizzi del browser.",
+    "Record with given id: {{id}} cannot be found in resource {{resource}}": "Il record con l'ID specificato: {{id}} non è stato trovato nella risorsa {{resource}}",
+    "RecordCannotBeDeleted": "Il record non può essere eliminato",
+    "RecordDeleted": "Elemento rimosso con successo",
+    "RecordsDeleted": "{{count}} Elementi rimossi con successo",
+    "RelationSuccessfullyAdded": "Relation aggiunta con successo.",
+    "RelationSuccessfullyDeleted": "Relation cancellata con successo",
+    "Remediation task suggested activity: {{remediationRiskmetricTaskActivity}}": "Attività suggerita da azione di remediation: {{remediationRiskmetricTaskActivity}}",
+    "RemediationPlanCreated": "Piano di remediation creato con successo",
+    "Required": "Campo obbligatorio",
+    "ResetLinkSent": "Reimposta Link Inviato",
+    "ResourceToWorkWith": "Seleziona Risorsa",
+    "RiskIndexAndMetricFilter": "Seleziona o un indice di rischio o una metrica",
+    "SavingTranslations": "Salvataggio messaggi delle traduzioni in corso",
+    "SelectAControlset": "Seleziona un set di controlli",
+    "SelectATable": "Seleziona una tabella",
+    "SelectedRecordsCannotBeDeleted": "Riga non eliminabile",
+    "StatusChanged": "Stato modificato con successo",
+    "StylesheetUploaded": "Foglio di stile caricato con successo",
+    "There was an error updating record, Check out console to see more information. There was an error updating record, Check out console to see more information": "Si sono verificati errori nell'aggiornameto del record",
+    "TicketAssigned": "Valutazione presa in carico",
+    "TicketReleased": "Valutazione rilasciata",
+    "TranslationUploaded": "File traduzioni caricato con successo",
+    "TranslationsCleared": "Registro traduzioni resettato",
+    "UploadControlMatches": "Carica Abbinamento Controlli",
+    "UploadControlMatchesMessage": "Carica gli abbinamenti dei controlli",
+    "UploadControlsMessage": "Carica controlli",
+    "UploadDownloadTickets": "Gestisci i file di caricamento massivo delle prassi e delle metriche controlli",
+    "UploadIconsMessage": "Gestisci le icone",
+    "UploadLanguageFileMessage": "Gestisci i file di traduzioni",
+    "UploadResourceMessage": "Carica le risorse",
+    "UploadRoles": "Carica Ruoli",
+    "UploadRolesMessage": "Carica Ruoli",
+    "UploadStatus": "Status Caricamento",
+    "UploadStyleSheetMessage": "Gestisci i file di stile",
+    "UserRoleHasActiveRemediationPlans": "L'utente ha controlli assegnati in una o più campagne attive",
+    "UserRoleHasCampaignControls": "L'utente ha controlli assegnati in una o più campagne attive",
+    "addAll": "Aggiungi tutti",
+    "addControls": "Aggiungi controlli",
+    "addingResources_subtitle": "Come aggiungere nuove risorse nella colonna laterale",
+    "addingResources_title": "Aggiungendo elementi",
+    "anyForbiddenError": "Non puoi eseguire questa azione",
+    "attributesets-modal": "Attributi associati al controllo",
+    "bulkDeleteError": "Si è verificato un errore durante la rimozione degli elementi, controlla la console per maggiori informazioni",
+    "community_subtitle": "Parla con i creatori di adminJS e altri utenti",
+    "community_title": "Entra nella community di Discord",
+    "componentNotFound_subtitle": "Devi specificare il componente che renderà questo elemento",
+    "componentNotFound_title": "Nessun componente specificato",
+    "confirmDelete": "Sicuro di voler eleminare questo elemento?",
+    "confirmUnsavedChanges": "Hai delle modifiche non salvate, sei sicuro di voler continuare?",
+    "customDashboard_subtitle": "Come modificare questa vista e aggiungere pagine in basso a sinistra",
+    "customDashboard_title": "Dashboard personalizzata",
+    "customizeActions_subtitle": "Modificare azioni esistenti e crearne delle nuove",
+    "customizeActions_title": "Personalizzare le azioni",
+    "customizeResources_subtitle": "Definire il comportamento, aggiungere propietà e altro...",
+    "customizeResources_title": "Personalizzare le risorse",
+    "error404Action": "l' azione: {{resourceId}} non ha un azione col nome di : {{actionName}} o non sei autorizzato ad usarla!",
+    "error404Record": "La risorsa: {{resourceId}} non ha un elemento: {{recordId}} o non sei autorizzato ad usarla!",
+    "error404Resource": "La risorsa: {{resourceId}} Non può essere trovata",
+    "errorFetchingRecord": "Si è verificato un errore durante la raccolta degli elementi, controlla la console per maggiori informazioni",
+    "errorFetchingRecords": "Si è verificato un errore durante la raccolta degli elementi, controlla la console per maggiori informazioni",
+    "forbiddenError": "Non puoi eseguire {{actionName}} su {{resourceId}}",
+    "foundBug_subtitle": "Apri una segnalazione sul nostro GitHub",
+    "foundBug_title": "Trovato un bug? Ti serve un implementazione?",
+    "invalidCredentials": "E-mail o password errati",
+    "keyValuePropertyDefaultDescription": "Valore di {{key}}",
+    "loadDataError": "Si è verificato un errore durante il caricamento dei dati",
+    "mandatory": "Obbligatorio",
+    "modal-subTitle": "Attenzione: questa azione è definitiva",
+    "needMoreSolutions_subtitle": "Siamo qui per fortnirti una bella UI/UX e un software personalizzato (non solo) su AdminJS",
+    "needMoreSolutions_title": "Ti servono soluzioni più avanzate?",
+    "noActionComponent": "Devi implementare un componente per la tua zione",
+    "noDescription": "Nessuna descrizione",
+    "noRecords": "Nessun elemento",
+    "noRecordsInResource": "Non ci sono elementi in questa risorsa",
+    "noRecordsSelected": "Non hai selezionato nessun elemento",
+    "notes": "Note",
+    "pageNotFound_subtitle": "Pagina <strong>\"{{pageName}}\"</strong> non esiste",
+    "pageNotFound_title": "pagina non trovata",
+    "pickSomeFirstToRemove": "Per rimuovere nuovi elementi, devi prima aggiungerne almeno uno",
+    "relations_chooseItemSubtitle": "Seleziona un elemento da aggiungere",
+    "relations_customModalSubtitle": "{{resourceName}}",
+    "relations_missingConfiguration": "[@adminjs/relations] Missing configuration for one of the relations: {{relationName}}",
+    "relations_mnRelationAlreadyExists": "Questo elemento esiste già.",
+    "relations_noRelationRecords": "Non ci sono elementi in \"{{relationName}}\" associati",
+    "relations_noRelationRecordsTitle": "Non ci sono dati",
+    "roleBasedAccess_subtitle": "Crea utenti e permessi su AdminJS",
+    "roleBasedAccess_title": "Accesso basato su ruoli",
+    "seeConsoleForMore": "Guarda la console di sviluppo per maggiori dettagli...",
+    "select": "Seleziona",
+    "successfullyBulkDeleted": "Rimossi con successo {{count}} Elementi",
+    "successfullyBulkDeleted_plural": "Rimossi con successo {{count}} Elementi",
+    "successfullyCreated": "Nuovo elemento creato con successo",
+    "successfullyDeleted": "Elemento selezionato rimosso con successo",
+    "successfullyUpdated": "Elemento aggiornato con successo",
+    "thereWereValidationErrors": "Ci sono degli errori di validazione - Controllali sotto",
+    "theseRecordsWillBeRemoved": "I seguenti elementi verranno rimossi",
+    "theseRecordsWillBeRemoved_plural": "I seguenti elementi verranno rimossi",
+    "writeOwnComponents_subtitle": "Come modificare il look e il feel di Adminjs",
+    "writeOwnComponents_title": "Scrivi componenti personalizzati",
+    "{{count}} countRecords": "{{count}} elementi"
+  },
+  "properties": {
+    "acm_link.addNewItem": "Aggiungi un riferimento ACM",
+    "active": "Stato",
+    "address": "Indirizzo",
+    "address_no": "Numero civico",
+    "advance_status": "Stato avanzamento",
+    "appdomain_attributes_id": "Associazione attributo",
+    "attribute": "Attributo",
+    "attribute_id": "Attributo",
+    "attributeset": "Set attributi",
+    "attributeset_id": "Set attributi",
+    "attributetype_id": "Tipo attributo",
+    "autodisable": "Disabilita automaticamente",
+    "automated_notifications": "Notifiche automatiche",
+    "bundling": "Aggregante",
+    "campaign": "Campagna",
+    "campaign_manager": "Responsabile della campagna",
+    "campaign_type": "Tipo campagna",
+    "campaign_type-ASSESSMENT": "Assessment",
+    "campaign_type-AUDIT": "Audit",
+    "city": "Città",
+    "code": "Codice",
+    "company_id": "Organizzazione",
+    "companytype_id": "Tipo organizzazione",
+    "contact_email": "Email di Contatto",
+    "contact_person": "Persona di Contatto",
+    "contact_telephone": "Telefono di Contatto",
+    "control": "Controllo",
+    "control_code": "Codice",
+    "control_code_from": "Controllo da",
+    "control_code_to": "Controllo a",
+    "control_level": "Livello",
+    "control_parent_id": "Controllo Padre",
+    "controlfamily": "Famiglia di Controlli",
+    "controlfamily_id": "Famiglia di Controlli",
+    "controlplan": "Piano Controlli",
+    "controlplan_id": "Id Piano Controlli",
+    "controlset": "Set di controlli",
+    "controlset_id": "Set di controlli",
+    "controltype": "Tipo controllo",
+    "controltype-CUSTOM": "PERSONALIZZATO",
+    "controltype-STANDARD": "STANDARD",
+    "cost": "Costo",
+    "cost_id": "Costi",
+    "cost_order": "Posizione",
+    "cost_type": "Descrizione",
+    "cost_value": "Valore",
+    "country": "Paese",
+    "cp_control_id": "Controllo",
+    "cp_controlset_id": "Set di controlli",
+    "created_at": "Data di creazione",
+    "description": "Descrizione",
+    "domain": "Dominio",
+    "domain_id": "Dominio Applicativo",
+    "domaincode": "Codice",
+    "domaintype": "Tipo",
+    "domaintype-GENERIC": "GENERICO",
+    "domaintype-SPECIFIC": "SPECIFICO",
+    "due_date": "Termine Campagna",
+    "email": "email",
+    "ended_at": "Terminato il",
+    "expected_level_id": "Livello Atteso",
+    "extended_description": "Descrizione Estesa",
+    "firstname": "nome",
+    "from": "Da",
+    "help": "help",
+    "helpText": "Indicazioni alla compilazione",
+    "id": "Id",
+    "inspection_constraint": "Vincolo visita ispettiva",
+    "is_paused": "In Pausa",
+    "is_primary": "Principale",
+    "lastname": "cognome",
+    "length": "Lunghezza",
+    "metric": "Metrica",
+    "metric_id": "Metrica",
+    "metricorder": "Ordine",
+    "metrictype": "Tipo Metrica",
+    "metricvalue": "Valore Metrica",
+    "metricvalue_id": "Valore Metrica",
+    "monitor": "Monitor",
+    "multiselect": "Selezione multipla",
+    "name": "Nome",
+    "new_attachments.file": "Nuovi allegati",
+    "origin_date": "Data di origine",
+    "parent_id": "Organizzazione padre",
+    "paused_at": "In pausa dal",
+    "pec": "PEC",
+    "player": "Azioni",
+    "primary": "Principale",
+    "purpose": "Scopo",
+    "remediation_approver": "Approvatore del piano di remediation",
+    "remediation_manager": "Responsabile del piano di remediation",
+    "riskindex": "Indice rischio",
+    "riskindex_id": "Indice rischio",
+    "riskorder": "Ordine",
+    "riskvalue": "Valore rischio",
+    "riskvalue_id": "Valore rischio",
+    "role": "Ruolo",
+    "role_id": "Ruolo",
+    "sdi_code": "Codice univoco",
+    "selected": "Selezionato",
+    "show_reference_values": "Mostra valori di riferimento",
+    "started_at": "Iniziato il",
+    "status": "Stato",
+    "status-ARCHIVED": "Archiviata",
+    "status-CREATED": "Creata",
+    "status-ENDED": "In revisione",
+    "status-OPENED": "Aperta",
+    "status-PAUSED": "In pausa",
+    "status-RUNNING": "Attiva",
+    "status-UNKNOWN": "Sconosciuto",
+    "std_expected_value": "Valore atteso standard",
+    "stdexpectedvalue": "Standard Expected Value",
+    "subject": "Oggetto",
+    "tax_code": "Codice Fiscale",
+    "telephone": "telefono",
+    "timing_id": "Tempistiche",
+    "to": "A",
+    "updated_at": "Aggiornato",
+    "use_ticket_lock": "funzione di presa in carico",
+    "user_id": "Utente",
+    "valuetype": "Tipo di valore",
+    "valutation_level": "Livello valutazione",
+    "vat_code": "Partita IVA"
+  },
+  "reports": {
+    "acm_plan": "Attività ACM",
+    "acm_plans.acm_link": "ACM Link",
+    "acm_plans.actions_todo": "Desczione azione da intraprendere",
+    "acm_plans.added_at": "Data inserimento",
+    "acm_plans.assigned_by": "Assegnato da",
+    "acm_plans.assigned_by_id": "Assegnato da",
+    "acm_plans.campaign": "Campagna",
+    "acm_plans.closed_at": "Data chiusura",
+    "acm_plans.company_name": "Organizzazione",
+    "acm_plans.created_by": "Creato da",
+    "acm_plans.criticality_id": "Criticità",
+    "acm_plans.description": "Descrizione",
+    "acm_plans.effectivness_validation": "Verifica Efficacia",
+    "acm_plans.expires_at": "Scadenza",
+    "acm_plans.id": "Id",
+    "acm_plans.improvement_area": "Area di miglioramento",
+    "acm_plans.inspection_constraint": "Vincolo visita ispettiva",
+    "acm_plans.last_modification_user_id": "Ultima modifica da",
+    "acm_plans.metric": "Metrica",
+    "acm_plans.new_assets": "Nuovi assets",
+    "acm_plans.new_attachments": "Nuovi allegati",
+    "acm_plans.new_metric": "Metrica",
+    "acm_plans.new_metric_description": "Descrizione",
+    "acm_plans.new_metric_value": "Livello",
+    "acm_plans.new_practice": "Nuova prassi",
+    "acm_plans.origin_date": "Data di origine",
+    "acm_plans.owner_id": "Owner ACM",
+    "acm_plans.reference": "Riferimento",
+    "acm_plans.regulatory_scope": "Ambito normativo",
+    "acm_plans.remediation_plan": "Piano di Remediation",
+    "acm_plans.root_cause": "Analisi Cause",
+    "acm_plans.source_id": "Origine",
+    "acm_plans.status": "Stato",
+    "acm_plans.survey_type": "Tipologia rilievo",
+    "acm_plans.terminated_at": "Attuata in data",
+    "acm_plans.type": "Tipo",
+    "acm_plans.updated_at": "Ultimo aggiornamento",
+    "acm_plans.workgroup_executors": "GDL - Esecutori",
+    "ap.mimetype": "Tipo",
+    "ap.new_attachments": "Nuovi allegati",
+    "ap.size": "Dimensione",
+    "campaign.campaign_manager": "Responsabile Campagna",
+    "campaign.created_at": "Creato Il",
+    "campaign.description": "Descrizione",
+    "campaign.due_date": "Data Di Scadenza",
+    "campaign.ended_at": "Terminato Il",
+    "campaign.name": "Nome",
+    "campaign.num_closed": "Numero Chiusi",
+    "campaign.num_controls": "Numero Controlli",
+    "campaign.progress": "Progresso",
+    "campaign.remediation_approver": "Approvazione Remediation",
+    "campaign.remediation_manager": "Responsabile Remediation",
+    "campaign.started_at": "Iniziato Il",
+    "campaign.status": "Stato",
+    "campaign.type": "Tipo",
+    "campaign.valutation_level": "Livello Di Valutazione",
+    "campaign_monitor.assigned": "Assegnati",
+    "campaign_monitor.company": "Azienda",
+    "campaign_monitor.done": "Fatto",
+    "campaign_monitor.fullname": "Nome Completo",
+    "campaign_monitor.opened": "Aperti",
+    "campaign_monitor.perc": "Percentuale",
+    "campaign_monitor.rejected": "Rifiutato",
+    "campaign_monitor.roles": "Ruoli",
+    "campaign_monitor.todo": "Da Fare",
+    "campaign_monitor.tot": "Totale",
+    "campaign_monitor.working": "In Valutazione",
+    "campaign_monitor_report": "Report Di Monitoraggio",
+    "campaign_report": "Report Campagna",
+    "campaigndata": "Dati",
+    "company": "Azienda",
+    "company_name": "Organizzazione",
+    "domain": "Dominio Applicativo",
+    "metric_tasks": "Attività metriche",
+    "metrictask.action": "Azione",
+    "metrictask.completed": "Completato",
+    "metrictask.cost": "Costo",
+    "metrictask.cost_description": "Descrizione costo",
+    "metrictask.cost_value": "Valore costo",
+    "metrictask.id": "ID attività metrica",
+    "metrictask.last_updated_by": "Ultimo aggiornato da",
+    "metrictask.mandatory": "Obbligatorio",
+    "metrictask.metric": "Metrica",
+    "metrictask.metric_description": "Descrizione metrica",
+    "metrictask.metric_value": "Valore metrica",
+    "metrictask.timing": "Tempistica",
+    "metrictask.timing_description": "Descrizione tempistica",
+    "metrictask.timing_value": "Valore tempistica",
+    "metrictask.updated_at": "Aggiornato il",
+    "metrictask_detail": "Dettaglio attività metrica",
+    "remediation_plan.created_at": "Creato il",
+    "remediation_plan.description": "Descrizione",
+    "remediation_plan.ended_at": "Terminato il",
+    "remediation_plan.remediation": "Piano di Remediation",
+    "remediation_plan.remediation_approver": "Approvazione Remediation",
+    "remediation_plan.remediation_manager": "Responsabile Remediation",
+    "remediation_plan.started_at": "Iniziato il",
+    "remediation_plan.status": "Stato",
+    "remediation_report": "Remediation Report",
+    "remediationplandata": "Dati Piano",
+    "remediationtask": "Attività di rimediation",
+    "task.company_name": "Nome azienda",
+    "task.control": "Controllo",
+    "task.control_code": "Codice del controllo",
+    "task.control_level": "Livello",
+    "task.controlset": "Set controlli",
+    "task.created_at": "Creato il",
+    "task.domain_description": "Descrizione dominio",
+    "task.domain_name": "Nome dominio",
+    "task.expected_metric": "Metrica attesa",
+    "task.expected_metric_description": "Descrizione metrica attesa",
+    "task.expected_metric_value": "Valore metrica attesa",
+    "task.id": "ID attività",
+    "task.last_updated_by": "Ultimo aggiornato da",
+    "task.status": "Stato attività",
+    "task.surveyed_metric": "Metrica rilevata",
+    "task.surveyed_metric_description": "Descrizione metrica rilevata",
+    "task.surveyed_metric_value": "Valore metrica rilevata",
+    "task_users": "Utenti assegnati all'attività",
+    "ticket.applications": "Applicazioni",
+    "ticket.assigned_users": "Utenti Assegnati",
+    "ticket.attachment": "Allegato",
+    "ticket.closed_at": "Chiuso Il",
+    "ticket.company_name": "Nome Azienda",
+    "ticket.control": "Controllo",
+    "ticket.control_code": "Codice Di Controllo",
+    "ticket.control_level": "Livello Di Controllo",
+    "ticket.created_at": "Creato Il",
+    "ticket.domain_description": "Descrizione Dominio",
+    "ticket.domain_name": "Nome Dominio",
+    "ticket.evidence": "Prassi applicata",
+    "ticket.metric": "Metrica",
+    "ticket.metric_description": "Descrizione Metrica",
+    "ticket.metric_value": "Valore Metrica",
+    "ticket.mimetype": "Tipo MIME",
+    "ticket.notes": "Note",
+    "ticket.risk_description": "Descrizione Rischio",
+    "ticket.risk_index": "Indice Di Rischio",
+    "ticket.risk_value": "Valore Rischio",
+    "ticket.size": "Dimensione",
+    "ticket.status": "Stato",
+    "ticket.ticket_id": "ID Ticket",
+    "ticket.user": "Utente",
+    "ticket_details": "Dettagli Ticket",
+    "ticket_metrics": "Metriche del ticket",
+    "unassigned.company": "Azienda",
+    "unassigned.control_code": "Codice Controllo",
+    "unassigned.control_description": "Descrizione",
+    "unassigned.control_set": "Set Di Controlli",
+    "unassigned.domain": "Dominio",
+    "unassigned.id": "Id",
+    "unassigned.users": "Utenti"
+  },
+  "resources": {
+    "acm_campaigns": {
+      "actions": {
+        "delete": "Elimina",
+        "show": "Mostra"
+      },
+      "labels": {
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "inspection_constraint.false": "No",
+        "list_subtitle": "Lista attività del piano ACM",
+        "notes": "Notes",
+        "owner_id": "Owner Id",
+        "relations_customModalTitle-show": "Attività da Campagna ACM",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione"
+      },
+      "messages": {
+        "AcmActivityStatusChanged": "Stato attività piano ACM modificato",
+        "help.new_attachments.file": "Inserisci allegato",
+        "show-show": "dettaglio attività ACM"
+      },
+      "pages": {
+        "added_at": "Data inserimento",
+        "company_id": "Organizzazione",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "id": "Id",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "reference": "Riferimento",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "type": "Tipo"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "improvement_area": "Area di miglioramento",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "survey_type_id": "Tipologia rilievo",
+        "ticket_id": "Ticket Id",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_criticalities": {
+      "labels": {
+        "acm_criticalities": "Criticità ACM",
+        "list_subtitle": "Elenco Criticità",
+        "new_subtitle": "Nuovo sottotitolo"
+      },
+      "properties": {
+        "criticality": "criticità",
+        "order": "ordine"
+      }
+    },
+    "acm_notes": {
+      "messages": {
+        "NoData": "Nessuna nota"
+      },
+      "properties": {
+        "note": "Note",
+        "user_id": "Utente"
+      }
+    },
+    "acm_plans": {
+      "actions": {
+        "approve": "Approva",
+        "approveAll": "Approva tutto",
+        "cancel": "Cancel",
+        "close": "Chiudi",
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Lista",
+        "new": "Crea Piano ACM",
+        "report": "Report",
+        "show": "Mostra",
+        "start": "Avvia"
+      },
+      "buttons": {
+        "filter": "Filtra",
+        "filterActive": "Filtro ({{count}})",
+        "save": "Salva"
+      },
+      "labels": {
+        "ACMPlanReport": "Report Piano ACM",
+        "OptionalFieldsToInclude": "Campi opzionali da includere",
+        "ReportCaption": "Intestazione Report",
+        "acm_link": "Link ACM",
+        "acm_plans": " Piani ACM",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "edit_subtitle": "Modifica dettaglio attività ACM",
+        "effectivness_validation": "Verifica Efficacia",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "list_subtitle": "Lista attività del piano ACM",
+        "new_assets": "Nuovi assets",
+        "new_attachments": "Nuovi allegati",
+        "new_metricvalue_id": "Nuovo livello di maturità",
+        "new_practice": "Nuova prassi",
+        "new_subtitle": "Inserisci i campi e crea un nuovo Piano ACM",
+        "notes": "Note",
+        "owner_id": "Proprietario ID",
+        "regulatory_scope_id": "Ambito normativo",
+        "report-sub-title": "Aggiungi una descrizione in testata al report e seleziona i dati opzionali da includere",
+        "root_cause": "Analisi Cause",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "Annulato",
+        "status-COMPLETED": "Completato",
+        "status-PAUSED": "In pausa",
+        "status-TOBE_APPROVED": "Da approvare",
+        "status-TOBE_EXECUTED": "Da eseguire",
+        "status-WORKING": "In lavorazione",
+        "survey_type_id": "Tipologia rilievo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      },
+      "messages": {
+        "Required": "Campo obbligatorio",
+        "help.new_attachments.file": "Inserisci allegato"
+      },
+      "properties": {
+        "acm_link": "ACM Link",
+        "acm_link.addNewItem": "Aggiungi nuovo elemento",
+        "actions_todo": "Desczione azione da intraprendere",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "closed_at": "Data chiusura",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "id": "Id",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "new_assets": "Nuovi assets",
+        "new_attachments": "Nuovi allegati",
+        "new_attachments.file": "Nuovo file allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_metricvalue_id": "Nuovo livello di maturità",
+        "new_practice": "Nuova prassi",
+        "origin_date": "Data di origine",
+        "owner_id": "Proprietario ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_plan_id": "Piano di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-auto": {
+      "actions": {
+        "approveAll": "Approve tutto",
+        "delete": "Elimina",
+        "doApprove": "Approva",
+        "doPause": "Pausa",
+        "doStart": "Avvia",
+        "doUnpause": "Riprendi",
+        "edit": "Modifica",
+        "list": "Lista",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "approve": "Approva",
+        "cancel": "Annulla",
+        "close": "Chiudi",
+        "filter": "Filtra",
+        "save": "Salva",
+        "start": "Avvia"
+      },
+      "labels": {
+        "ACMPlanReport": "Report Piano ACM",
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "doPause_subtitle": "Metti in pausa l'attività",
+        "doUnpause_subtitle": "Riavvia l'attività",
+        "edit_subtitle": "Modifica attività piano ACM",
+        "inspection_constraint-false": "No",
+        "inspection_constraint-true": "Si",
+        "list_subtitle": "Lista attività del piano ACM",
+        "notes": "Note",
+        "owner_id": "Proprietario",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione"
+      },
+      "messages": {
+        "AcmActivityStatusChanged": "Stato attività piano ACM modificato",
+        "confirmCancel": "Sei sicuro di voler annullare l'attività ACM ?",
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?",
+        "help.new_attachments.file": "help.new_attachments.file"
+      },
+      "pages": {
+        "added_at": "Data inserimento",
+        "company_id": "Organizzazione",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "id": "Id",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "reference": "Riferimento",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "type": "Tipo"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "id": "Id",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Proprietario ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediatiation_task_id": "Attività di rimediation",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "ticket_id": "Ticket Id",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-auto-activity-manager": {
+      "actions": {
+        "delete": "Elimina",
+        "doApprove": "Approva",
+        "doPause": "Pausa",
+        "doStart": "Avvia",
+        "doUnpause": "Riprendi",
+        "edit": "Modifica",
+        "list": "Lista",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "approve": "Approva",
+        "cancel": "Annulla",
+        "close": "Termina",
+        "filter": "Filtra",
+        "save": "Salva",
+        "start": "Avvia"
+      },
+      "labels": {
+        "ACMPlanReport": "Report Piano ACM",
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "doPause_subtitle": "Metti in pausa l'attività",
+        "doUnpause_subtitle": "Riavvia l'attività",
+        "edit_subtitle": "Modifica attività piano ACM",
+        "inspection_constraint-false": "No",
+        "inspection_constraint-true": "Si",
+        "list_subtitle": "Lista attività del piano ACM",
+        "notes": "Note",
+        "owner_id": "Owner",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione"
+      },
+      "messages": {
+        "AcmActivityStatusChanged": "Stato attività piano ACM modificato",
+        "confirmCancel": "Sei sicuro di voler annullare l'attività ACM ?",
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?",
+        "help.new_attachments.file": "help.new_attachments.file"
+      },
+      "pages": {
+        "added_at": "Data inserimento",
+        "company_id": "Organizzazione",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "id": "Id",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "reference": "Riferimento",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "type": "Tipo"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "id": "Id",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediatiation_task_id": "Attività di rimediation",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "ticket_id": "Controllo Valutato",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-auto-manager": {
+      "buttons": {
+        "approve": "Approva",
+        "cancel": "Annulla",
+        "close": "Termina",
+        "confirm": "Conferma",
+        "save": "Salva"
+      },
+      "messages": {
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "improvement_area": "Area di miglioramento",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_metricvalue_id": "Nuovo livello di maturità",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "survey_type_id": "Tipologia rilievo",
+        "ticket_id": "Ticket Id",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-auto-new": {
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "owner_id": "Proprietario"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "id": "Id",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_metricvalue_id": "Nuovo valore metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediatiation_task_id": "Attività di rimediation",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "status": "Stato",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "ticket_id": "Ticket Id",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-manual": {
+      "actions": {
+        "doApprove": "Approva",
+        "doPause": "Pausa",
+        "doStart": "Avvia",
+        "edit": "Modifica",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "cancel": "Annulla",
+        "close": "Chiudi",
+        "save": "Salva",
+        "start": "Avvia"
+      },
+      "labels": {
+        "ACMPlanReport": "Report Piano ACM",
+        "AcmActivityStatusChanged": "Stato Attività ACM modificato con successo",
+        "assigned_by_id": "Addegnato da",
+        "created_by": "Creato da",
+        "edit_subtitle": "Modifica azione ACM",
+        "inspection_constraint-false": "No",
+        "inspection_constraint-true": "Si",
+        "notes": "Note",
+        "owner_id": "Proprietario",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione"
+      },
+      "messages": {
+        "AcmActivityStatusChanged": "Stato Attività ACM modificato con successo",
+        "confirmCancel": "Sei sicuro di voler annullare l'attività ACM ?",
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "added_at": "Data inserimento",
+        "assigned_by_id": "Assegnato da",
+        "closed_at": "Data chiusura",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "improvement_area": "Area di miglioramento",
+        "inspection_constraint": "Vincolo visita ispettiva",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_attachments.file": "Nuovi allegati",
+        "new_practice": "Nuova prassi",
+        "origin_date": "Data di origine",
+        "owner_id": "Proprietario ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "updated_at": "Aggiornato",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-manual-activity-manager": {
+      "buttons": {
+        "cancel": "Annulla",
+        "close": "Termina",
+        "confirm": "Conferma",
+        "save": "Salva"
+      },
+      "labels": {
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "inspection_constraint.false": "No",
+        "list_subtitle": "Lista attività del piano ACM",
+        "notes": "Notes",
+        "owner_id": "Owner ACM",
+        "relations_customModalTitle-show": "Attività da Campagna ACM",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione",
+        "title": "Titolo"
+      },
+      "messages": {
+        "confirmCancel": "Sei sicuro di voler annullare l'attività ACM ?",
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "improvement_area": "Area di miglioramento",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "ticket_id": "Ticket Id",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_plans-manual-manager": {
+      "buttons": {
+        "cancel": "Annulla",
+        "close": "Termina",
+        "confirm": "Conferma",
+        "save": "Salva"
+      },
+      "labels": {
+        "assigned_by_id": "Assegnato da",
+        "created_by": "Creato da",
+        "inspection_constraint.false": "No",
+        "list_subtitle": "Lista attività del piano ACM",
+        "notes": "Notes",
+        "owner_id": "Owner ACM",
+        "relations_customModalTitle-show": "Attività da Campagna ACM",
+        "show_subtitle": "Visualizza dettaglio attività ACM",
+        "status": "Stato",
+        "status-CANCELLED": "annullato",
+        "status-COMPLETED": "completato",
+        "status-PAUSED": "in pausa",
+        "status-TOBE_APPROVED": "da approvare",
+        "status-TOBE_EXECUTED": "da eseguire",
+        "status-WORKING": "in lavorazione",
+        "title": "Titolo"
+      },
+      "messages": {
+        "confirmCancel": "Sei sicuro di voler annullare l'attività ACM ?",
+        "confirmClose": "Sei sicuro di voler completare l'attività ACM ?"
+      },
+      "properties": {
+        "acm_link": "Link ACM",
+        "actions_todo": "Descrizione azione da intraprendere",
+        "assigned_by_id": "Assegnato da",
+        "campaign_id": "Campagna",
+        "company_id": "Organizzazione",
+        "created_by": "Creato da",
+        "criticality_id": "Criticità",
+        "description": "Descrizione",
+        "effectivness_validation": "Verifica Efficacia",
+        "expires_at": "Scadenza",
+        "improvement_area": "Area di miglioramento",
+        "last_modification_user_id": "Utente Ultima modifica",
+        "new_assets": "Nuovi assets",
+        "new_attachments.file": "Nuovi allegati",
+        "new_metric_id": "Nuova metrica",
+        "new_practice": "Nuova prassi",
+        "owner_id": "Owner ACM",
+        "reference": "Riferimento",
+        "regulatory_scope_id": "Ambito normativo",
+        "remediation_plan_id": "Piano di Remediation",
+        "remediation_riskmetric_task_id": "Rischio/Metrica",
+        "remediation_task_id": "Attività di Remediation",
+        "root_cause": "Analisi Cause",
+        "source_id": "Origine",
+        "survey_type_id": "Tipologia rilievo",
+        "terminated_at": "Attuata in data",
+        "ticket_id": "Ticket Id",
+        "title": "Titolo",
+        "type": "Tipo",
+        "type-AC": "AC",
+        "type-AM": "AM",
+        "workgroup_executors": "GDL - Esecutori"
+      }
+    },
+    "acm_sources": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Lista",
+        "new": "Crea nuovo"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "acm_sources": "Fonti ACM",
+        "default-false": "No",
+        "default-true": "Si",
+        "edit_subtitle": "Modifica sottotitolo",
+        "list_subtitle": "Elenco sorgenti ACM"
+      },
+      "properties": {
+        "acm_source": "Fonti Acm",
+        "default": "Predefinito",
+        "id": "Id"
+      }
+    },
+    "addAsset": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Lista",
+        "new": "Crea nuovo",
+        "relations_addItem": "Aggiungi"
+      }
+    },
+    "addAttribute": {
+      "actions": {
+        "relations_addItem": "Aggiungi tipo attributo"
+      }
+    },
+    "addAttributeSet": {
+      "actions": {
+        "relations_addItem": "Aggiungi set di attributi"
+      }
+    },
+    "addAttributeType": {
+      "actions": {
+        "relations_addItem": "Nuovo attributo"
+      }
+    },
+    "addCompany": {
+      "actions": {
+        "relations_addItem": "Aggiungi"
+      }
+    },
+    "addControlplanToCampaign": {
+      "actions": {
+        "relations_addItem": "Aggiungi"
+      }
+    },
+    "addControlsetMetric": {
+      "actions": {
+        "relations_addItem": "Aggiungi metrica"
+      }
+    },
+    "addDomainToCampaign": {
+      "actions": {
+        "relations_addItem": "Aggiungi"
+      }
+    },
+    "addMetricValue": {
+      "actions": {
+        "relations_addItem": "Aggiungi valore metrica"
+      }
+    },
+    "addRiskValue": {
+      "actions": {
+        "relations_addItem": "Aggiungi valore di rischio"
+      }
+    },
+    "addRoleAttribute": {
+      "actions": {
+        "relations_addItem": "Aggiungi attributo"
+      }
+    },
+    "addUserRole": {
+      "actions": {
+        "relations_addItem": "Aggiungi"
+      }
+    },
+    "appdomain_assets": {
+      "actions": {
+        "delete": "Elimina"
+      },
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addAsset": "Aggiungi un asset al dominio applicativo"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addAsset": "Aggiungi un asset al dominio",
+        "relations_noRelationRecords": "Non ci sono elementi in \"Appdomain Assets\" associati",
+        "relations_noRelationRecordsTitle": "Non ci sono dati"
+      },
+      "pages": {
+        "asset_id": "Asset Id",
+        "company_id": "Organizzazione",
+        "id": "Id"
+      }
+    },
+    "appdomain_attributetypes": {
+      "actions": {
+        "delete": "Elimina"
+      },
+      "buttons": {
+        "cancel": "Annulla",
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addAttributeType": "Aggiungi un attributo al dominio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addAttributeType": "Aggiungi un attributo al dominio applicativo"
+      },
+      "pages": {
+        "attributeset_id": "Set attributi",
+        "attributetype_id": "Tipo attributo",
+        "id": "Id"
+      }
+    },
+    "appdomain_companies": {
+      "actions": {
+        "delete": "Elimina"
+      },
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addCompany": "Aggiungi una organizzazione al dominio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addCompany": "Aggiungi una organizzazione al dominio applicativo"
+      },
+      "pages": {
+        "company_id": "Organizzazione",
+        "id": "Id"
+      }
+    },
+    "appdomains": {
+      "actions": {
+        "delete": "Elimina",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "duplicate": "Duplica",
+        "edit": "Modifica Dominio Applicativo",
+        "list": "Domini applicativi",
+        "new": "Nuovo Dominio Applicativo",
+        "show": "Dominio Applicativo"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo",
+        "appdomain_assets": "Asset per dominio",
+        "appdomain_attributetypes": "Attributi",
+        "appdomain_campaigns": "Campagna per dominio",
+        "appdomain_companies": "Organizzazioni per dominio",
+        "appdomain_user_roles": "Utenti per dominio",
+        "edit_subtitle": "Modifica i dettagli del dominio applicativo",
+        "list_subtitle": "Gestisci i domini applicativi",
+        "new_subtitle": "Crea un nuovo dominio applicativo",
+        "show_subtitle": "Visualizza e gestisci i dettagli del dominio applicativo"
+      },
+      "pages": {
+        "active": "Stato",
+        "domain": "Dominio",
+        "domaincode": "Codice",
+        "domaintype": "Tipo",
+        "id": "Id"
+      },
+      "properties": {
+        "active": "Stato",
+        "description": "Descrizione",
+        "domaintype.GENERIC": "Generico",
+        "domaintype.SPECIFIC": "Specifico"
+      }
+    },
+    "applications": {
+      "actions": {
+        "list": "Applicazioni",
+        "new": "Crea nuovo",
+        "show": "Applicazione"
+      },
+      "buttons": {
+        "filter": "Filtra"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli dell'applicazione",
+        "list_subtitle": "Gestisci le applicazioni",
+        "new_subtitle": "Crea una nuova applicazione",
+        "show_subtitle": "Visualizza e gestisci i dettagli dell'applicazione"
+      },
+      "pages": {
+        "application": "Application",
+        "id": "Id"
+      },
+      "properties": {
+        "application": "Applicazione"
+      }
+    },
+    "asset_asset_classes-modal": {
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addAssetClass": "Aggiungi classi Assets"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addAssetClass": " ",
+        "relations_noRelationRecords": "Non ci sono elementi in \"Asset Asset Classes Modal\" associati",
+        "relations_noRelationRecordsTitle": "Non ci sono dati"
+      }
+    },
+    "asset_classes": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Classi di assets",
+        "new": "Crea nuova classe di assets",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli delle classi di asset",
+        "list_subtitle": "Gestisci le classi di assets",
+        "new_subtitle": "Visualizza e gestisci le classi di assets",
+        "show_subtitle": "Visualizza e gestisci i dettagli delle classi di asset"
+      },
+      "pages": {
+        "asset_class": "Classi di asset",
+        "description": "Descrizione",
+        "id": "Id",
+        "meta_asset_id": "Meta Asset Id"
+      },
+      "properties": {
+        "asset_class": "Classe di asset",
+        "meta_asset_id": "Meta Asset"
+      }
+    },
+    "assets": {
+      "actions": {
+        "delete": "Elimina",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica",
+        "list": "Assets",
+        "new": "Crea nuovo",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "active.true": "Si",
+        "asset_asset_classes": "Classi Assets",
+        "edit_subtitle": "Modifica i dettagli degli assets",
+        "is_primary.false": "No",
+        "list_subtitle": "Gestisci gli assets",
+        "new_subtitle": "Crea un nuovo asset",
+        "show_subtitle": "Visualizza e gestisci i dettagli deli assets"
+      },
+      "pages": {
+        "active": "Stato",
+        "asset": "Asset",
+        "company_id": "Organizzazione",
+        "id": "Id",
+        "is_primary": "Principale"
+      },
+      "properties": {
+        "active": "Stato",
+        "asset_owner_id": "Asset Owner Id",
+        "company_id": "Organizzazione",
+        "description": "Descrizione",
+        "service_manager_id": "Service Manager Id",
+        "service_owner_id": "Service Owner Id"
+      }
+    },
+    "attributes": {
+      "actions": {
+        "edit": "Modifica Attributo",
+        "list": "Attributi",
+        "new": "Nuovo Attributo",
+        "show": "Attributi"
+      }
+    },
+    "attributesets": {
+      "actions": {
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica set di attributi",
+        "list": "Attributi",
+        "new": "Nuovo set di attributi",
+        "new-attributetypes": "Aggiungi attributo",
+        "show": "Set di attributi"
+      },
+      "labels": {
+        "active-false": "No",
+        "active-true": "Si",
+        "attributesets": "Attributi",
+        "attributetypes": "Ruoli Associati",
+        "edit_subtitle": "Modifica il set di attributi",
+        "list_subtitle": "Gestisci i set di attributi",
+        "multiselect-false": "No",
+        "multiselect-true": "Si",
+        "new_subtitle": "Crea un nuovo set di attributi",
+        "role_attributes": "Attributi del ruolo",
+        "show_subtitle": "Visualizza e gestisci i dettagli del set di attributi"
+      }
+    },
+    "attributetypes": {
+      "actions": {
+        "bulkDeleteAttributeTypes": "Elimina",
+        "bulkDeleteAttributetypes": "Elimina attributi",
+        "delete": "Elimina attributo",
+        "edit": "Modifica attributo",
+        "show": "Visualizza attributo"
+      },
+      "buttons": {
+        "save": "Aggiungi"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica attributo",
+        "relations_chooseItemHeader-addAttributeType": "Aggiungi un nuovo attributo",
+        "relations_customModalTitle-edit": "Modifica l'attributo",
+        "show_subtitle": "Dettagli attributo"
+      },
+      "messages": {
+        "RecordDeleted": "Attibuto rimosso con successo",
+        "RecordsDeleted {{count}}": "{{count}} Attributi rimossi con successo",
+        "confirmDeleteAttributetypes": "Sei sicuro di voler eliminare gli attributi selezionati?",
+        "edit-edit": "Modifica il titolo e/o la descrizione dell'attributo selezionato",
+        "relations_chooseItemSubtitle-addAttributeType": "Inserisci il titolo dell'attributo e una breve descrizione"
+      },
+      "properties": {
+        "attribute": "Attributo",
+        "description": "Descrizione"
+      }
+    },
+    "audit_classes": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Classi di audit",
+        "new": "Crea nuovo",
+        "show": "Classe di audit"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli delle classi di audit",
+        "list_subtitle": "Gestisci le classi di audit",
+        "new_subtitle": "Crea una classi di audit",
+        "show_subtitle": "Visualizza e gestisci i dettagli delle classi di audit"
+      },
+      "properties": {
+        "class": "classe",
+        "id": "Id"
+      }
+    },
+    "campaign-monitor": {
+      "actions": {
+        "Pause": "Pausa",
+        "Start": "Avvia",
+        "Stop": "Ferma",
+        "customModalTitle-preview": "Anteprima titolo modale personalizzato",
+        "generate": "Genera Report (x)",
+        "list": "Monitoraggio campagne",
+        "show": "Stato campagna",
+        "showCampaignTicketUsers": "Mostra dettagli"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra"
+      },
+      "labels": {
+        "AllRecords": "Tutti",
+        "assigned": "Assegnati",
+        "automated_notifications-false": "No",
+        "automated_notifications-true": "Si",
+        "campaign-monitor": "Monitoraggio campagne",
+        "campaign_type": "Tipo di campagna",
+        "campaign_type-ASSESSMENT": "Assessment",
+        "campaign_type-AUDIT": "Audit",
+        "company": "Organizzazione",
+        "control_code": "Codice di controllo",
+        "controlset": "Set di controlli",
+        "cost_types": "Metrica Costi",
+        "domain": "Dominio",
+        "done": "Completati",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributesets": "Filtra set attributi",
+        "filter_companies": "Filtra Organizzazioni",
+        "fullname": "Utente",
+        "list_subtitle": "Monitora le campagne",
+        "monitor": "Monitora",
+        "opened": "Aperti",
+        "perc": "Percentuale",
+        "rejected": "Rifiutati",
+        "report-sub-title": "Aggiungi una descrizione in testata al report",
+        "report-title": "Genera PDF",
+        "roles": "Ruoli",
+        "show_reference_values-false": "No",
+        "show_reference_values-true": "Si",
+        "show_subtitle": "Visualizza e gestisci i dettagli della campagna che stai monitorando",
+        "status": "Stato",
+        "status-ARCHIVED": "Archiviata",
+        "status-CREATED": "Creata",
+        "status-DRAFT": "Bozza",
+        "status-ENDED": "In revisione",
+        "status-OPENED": "Aperto",
+        "status-PAUSED": "In pausa",
+        "status-RUNNING": "Attiva",
+        "timing_types": "Metrica Tempi",
+        "todo": "Da completare",
+        "tot": "Totale",
+        "unassigned": "Controlli non assegnati",
+        "variant-FROM_DUPLICATION": "FROM_DUPLICATION",
+        "variant-FROM_SIMULATION": "FROM_SIMULATION",
+        "variant-NORMAL": "NORMALE",
+        "variant-RELAUNCHED": "RILANCIA",
+        "working": "In Valutazione"
+      },
+      "messages": {
+        "Assign": "Assegna",
+        "Show": "Mostra",
+        "assign": "assegna",
+        "noRecords": "Nessun elemento",
+        "select": "Seleziona...",
+        "show": "Mostra"
+      },
+      "pages": {
+        "campaign": "Campagna",
+        "campaign_type": "Tipo campagna",
+        "monitor": "Monitor",
+        "num_closed": "Numero chiusi",
+        "num_controls": "Numero controlli",
+        "progress": "avanzamento %",
+        "started_at": "data inizio",
+        "status": "Stato",
+        "unassigned": "Non assegnati"
+      },
+      "properties": {
+        "automated_notifications": "Notifiche Automatiche",
+        "campaign": "Campagna",
+        "campaign_manager": "Responsabile della campagna",
+        "campaign_type": "Tipo campagna",
+        "campaign_type-ASSESSMENT": "Assessment",
+        "campaign_type-AUDIT": "Audit",
+        "created_at": "Data di creazione",
+        "description": "Descrizione",
+        "due_date": "Termine Campagna",
+        "ended_at": "data termine",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributesets": "Filtra per set attributi",
+        "filter_companies": "Filtra per organizzazione",
+        "has_missing": "controllo assegnazione utenti",
+        "id": "Id",
+        "monitoring": "Monitoraggio",
+        "num_assigned": "Num. Assegnato",
+        "num_closed": "Numero chiusi",
+        "num_controls": "Numero controlli",
+        "num_opened": "Num. Aperti",
+        "num_working": "NUm. In Lavorazione",
+        "progress": "avanzamento %",
+        "remediation_approver": "Approvatore del piano di remediation",
+        "remediation_manager": "Responsabile del piano di remediation",
+        "started_at": "data inizio",
+        "status": "Stato",
+        "use_ticket_lock": "funzione di presa in carico",
+        "use_ticket_lock-OPTIONAL": "OPTIONAL",
+        "valutation_level": "Livello valutazione",
+        "valutation_level-1": "1"
+      }
+    },
+    "campaign-monitor-unassigned": {
+      "actions": {
+        "doEnableDisable": "Attiva/Disattiva",
+        "show": "Piano per set di controlli"
+      },
+      "campaign_controlplans": {
+        "buttons": {
+          "save": "Salva"
+        },
+        "labels": {
+          "relations_chooseItemHeader-addControlplanToCampaign": "Aggiungi piano di controllo"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addControlplanToCampaign": " "
+        }
+      },
+      "campaign_domains": {
+        "buttons": {
+          "save": "Salva"
+        },
+        "labels": {
+          "relations_chooseItemHeader-addDomainToCampaign": "Aggiungi dominio"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addDomainToCampaign": " "
+        }
+      },
+      "ccp_campaigns": {
+        "properties": {
+          "ended_at": "Terminato il",
+          "started_at": "Iniziato il"
+        }
+      },
+      "ccp_tickets": {
+        "labels": {
+          "campaign_id": "Campagna",
+          "control": "Controllo",
+          "control_code": "Codice controllo",
+          "domain_id": "Dominio Applicativo",
+          "edit_subtitle": "Modifica i dettagli del controllo nel piano di controllo consolidato",
+          "notes": "Note",
+          "origin": "controllo di origine",
+          "show_subtitle": "Visualizza e gestisci i dettagli del controllo nel piano di controllo consolidato",
+          "soa_applicability": "applicabilita SOA",
+          "soa_applicability-false": "No",
+          "soa_applicability-true": "Si"
+        },
+        "messages": {
+          "add": "Aggiungi",
+          "addAll": "Aggiungi tutti",
+          "addSelected": "Aggiungi selezionati",
+          "edit": "Modifica SOA",
+          "show": "Mostra"
+        },
+        "pages": {
+          "metric_data": "Metrica"
+        },
+        "properties": {
+          "attachments.file": "Evidenze allegate",
+          "campaign_id": "Campagna",
+          "consolidated_controlplan_id": "Piano di controllo consolidato",
+          "evidence": "Prassi",
+          "metric_data": "Metrica",
+          "origin": "controllo di origine",
+          "soa_applicability": "applicabilita SOA",
+          "soa_brief_practice": "prassi SOA",
+          "soa_rationale": "razionale SOA"
+        }
+      },
+      "charts": {
+        "labels": {
+          "ASSIGNED": "Assegnati",
+          "CLOSED": "Chiusi",
+          "CREATED": "Nuovi",
+          "General": "Avanzamento Generale",
+          "Negative": "inferiore a livello atteso",
+          "OPENED": "Aperti",
+          "Positive": "superiore o uguale a livello atteso",
+          "Scostamento": "Stato di Maturità",
+          "Ticket": "Controlli",
+          "WORKING": "In valutazione",
+          "_NOASSIGN_": "Nessun controllo assegnato",
+          "_NOEVAL_": "Nessun controllo valutato",
+          "_NORECENT_": "Nessuna campagna attiva"
+        }
+      },
+      "consolidated_controlplans": {
+        "labels": {
+          "campaign_id": "Campagna",
+          "ccp_campaigns": "Campagne",
+          "ccp_domains": "Domini Applicativi",
+          "ccp_tickets": "Controlli",
+          "control": "Controllo",
+          "control_code": "Codice controllo",
+          "domain_id": "Dominio Applicativo",
+          "edit_subtitle": "Modifica i dettagli del piano di controllo consolidato",
+          "evaluate_soa": "Controlli SOA da valutare",
+          "populated": "Valorizzati",
+          "show_subtitle": "Visualizza e gestisci i dettagli del piano di controllo consolidato",
+          "soa_applicability": "applicabilita SOA"
+        },
+        "messages": {
+          "cleanupList": "Pulisci lista",
+          "remove": "Rimuovi",
+          "setSOAData": "Imposta dati SOA",
+          "show": "Mostra"
+        },
+        "properties": {
+          "created_by": "Creato da",
+          "evaluate_soa": "Controlli SOA da valutare",
+          "origin": "origine",
+          "soa_date": "Data SOA",
+          "soa_tasks": "Valutazione SOA Massiva",
+          "soa_version": "Versione SOA"
+        }
+      },
+      "control_attributetypes": {
+        "labels": {
+          "relations_chooseItemHeader-addAttribute": "Aggiungi attributo"
+        },
+        "messages": {
+          "modal-subTitle": "Attributo dal controllo",
+          "relations_chooseItemSubtitle-addAttribute": "Seleziona un attributo da aggiungere al controllo"
+        }
+      },
+      "control_metric": {
+        "actions": {
+          "edit": "Metriche e rischi",
+          "new-metric_riskvalues": "Aggiungi associazione rischio-metrica",
+          "show": "Metriche e rischi"
+        },
+        "properties": {
+          "filled": "Tutti Associati"
+        }
+      },
+      "controlfamily": {
+        "actions": {
+          "edit": "Modifica Famiglia di controlli",
+          "list": "Famiglia di controlli",
+          "new": "Nuova Famiglia di controlli",
+          "show": "Famiglia di controlli"
+        }
+      },
+      "controls": {
+        "actions": {
+          "edit": "Modifica controllo",
+          "new": "Nuovo controllo",
+          "new-control_attributetypes": "Aggiungi attributo",
+          "show": "Controllo"
+        },
+        "labels": {
+          "appendChild_subtitle": "Aggiungi un controllo figlio al controllo selezionato",
+          "control": "Titolo controllo",
+          "control_code": "Codice controllo",
+          "description": "Descrizione controllo",
+          "edit_subtitle": "Modifica i dettagli del controllo selezionato",
+          "extended_description": "descrizione estesa",
+          "list_subtitle": "Visualizza e gestisci tutti i controlli",
+          "new_subtitle": "Inserisci i dettagli del nuovo controllo",
+          "show_subtitle": "Visualizza e gestisci i dettagli del controllo"
+        },
+        "properties": {
+          "control": "Titolo controllo",
+          "control_code": "Codice controllo",
+          "control_id": "Controllo",
+          "description": "Descrizione controllo",
+          "extended_description": "descrizione estesa"
+        }
+      },
+      "controlset_attributeset": {
+        "buttons": {
+          "save": "Aggiungi"
+        },
+        "labels": {
+          "relations_chooseItemHeader-addAttributeSet": "Aggiungi un set di attributi"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addAttributeSet": "Seleziona un set di attributi da aggiungere"
+        }
+      },
+      "controlset_metric": {
+        "actions": {
+          "Back": "Indietro",
+          "delete": "Elimina",
+          "edit": "Modifica",
+          "editAttributes": "Edit Attributes",
+          "show": "Dettagli metrica"
+        },
+        "labels": {
+          "edit_subtitle": "Modifica i dettagli della metrica",
+          "metricvalues": "Valori Metriche",
+          "relations_chooseItemHeader-addControlsetMetric": "Aggiungi metrica",
+          "riskvalues": "Valori di Rischio",
+          "show_subtitle": "Visualizza i valori della metrica e gli indici di rischio"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addControlsetMetric": "Aggiungi una nuova metrica"
+        },
+        "properties": {
+          "expected_level_id": "Livello Atteso",
+          "filled": "Rischio associato",
+          "id": "Id",
+          "is_primary": "Principale",
+          "metric_id": "Metrica",
+          "riskindex_id": "Indice Rischio"
+        }
+      },
+      "controlset_metric_riskvalues": {
+        "actions": {
+          "delete": "Elimina",
+          "edit": "Modifica"
+        },
+        "buttons": {
+          "save": "Salva"
+        },
+        "labels": {
+          "relations_chooseItemHeader-addControlsetRiskMetric": "Abbinamento metriche/valori di rischio"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addControlsetRiskMetric": "Aggiungi un abbinamento tra metriche e valori di rischio",
+          "relations_noRelationRecords": "Non ci sono elementi in \"Controlset Metric Riskvalues\" associati",
+          "relations_noRelationRecordsTitle": "Non ci sono dati"
+        },
+        "properties": {
+          "id": "Id",
+          "metricvalue_id": "Valore Metrica",
+          "riskvalue_id": "Valore Rischio"
+        }
+      },
+      "cost_types": {
+        "actions": {
+          "edit": "Modifica Metrica Costi",
+          "list": "Metrica Costi",
+          "new": "Nuova Metrica Costi",
+          "new-cost_types": "Aggiungi metrica costi",
+          "show": "Metrica Costi"
+        }
+      },
+      "costs": {
+        "actions": {
+          "edit": "Modifica Costo",
+          "list": "Costi",
+          "new": "Nuovo Costo",
+          "show": "Costo"
+        },
+        "labels": {
+          "edit_subtitle": "Modifica i dettagli dei costi",
+          "list_subtitle": "Gestisci i costi",
+          "new_subtitle": "Crea un nuovo costo",
+          "show_subtitle": "Visualizza e gestisci i dettagli dei costi"
+        },
+        "messages": {
+          "CostHelpText": "La colonna 'Ordine' è un numero progressivo, ordina in maniera crescente le etichette di costo\nIl 'Valore' indica un valore numerico da associare alla metrica"
+        },
+        "properties": {
+          "cost_order": "Ordine",
+          "cost_type": "Descrizione",
+          "cost_value": "Valore"
+        }
+      },
+      "cp_control_metric": {
+        "actions": {
+          "new-cp_metric_riskvalues": "Aggiungi associazione rischi"
+        }
+      },
+      "cp_controlset_metric": {
+        "labels": {
+          "is_primary-false": "No",
+          "is_primary-true": "Si"
+        },
+        "properties": {
+          "expected_level_id": "Livello Atteso",
+          "expected_risk_level_id": "Livello di rischio Atteso",
+          "filled": "Rischio associato",
+          "id": "Id",
+          "is_primary": "Principale",
+          "metric_id": "Metrica",
+          "riskindex_id": "Indice Rischio"
+        }
+      },
+      "cp_controlsets": {
+        "actions": {
+          "doDisable": "Disabilita",
+          "doEnable": "Abilita",
+          "list": "Set di Controlli",
+          "show": "Piano per set di controlli"
+        },
+        "buttons": {
+          "back-to-dashboard": "Dashboard",
+          "back-to-list": "Indietro",
+          "filter": "Filtra"
+        },
+        "labels": {
+          "active-false": "No",
+          "active-true": "Si",
+          "control_metric": "Metriche per Livello",
+          "controls": "Set di controlli",
+          "controlset_attributeset": "Attributi",
+          "controlset_metric": "Metriche principali",
+          "controltype-CUSTOM": "CUSTOM",
+          "controltype-STANDARD": "STANDARD",
+          "cp_controlsets": "Piani per set di controlli",
+          "list_subtitle": "Visualizza i piani per ogni set di controlli",
+          "show_subtitle": "Visualizza i dettagli del set di controlli nel piano"
+        },
+        "properties": {
+          "active": "Stato attivo/disattivo",
+          "controlplan_id": "Id Piano Controlli",
+          "controlset": "Set di controlli",
+          "controltype": "Tipo set controlli",
+          "controltype-STANDARD": "STANDARD",
+          "description": "Descrizione",
+          "id": "Id"
+        }
+      },
+      "cp_metric_riskvalues": {
+        "actions": {
+          "new-cp_metric_riskvalues": "Aggiungi associazione rischi",
+          "relations_chooseItemHeader-addRiskMetric": "Aggiungi associazione rischi"
+        }
+      },
+      "labels": {
+        "control_code": "Codice di controllo",
+        "controlset": "Set di controlli",
+        "domain": "Domini",
+        "rejected": "Rifiutati",
+        "rejected-false": "No",
+        "rejected-true": "Si"
+      },
+      "messages": {
+        "Assign": "Assegna",
+        "NoRecords": "Nessun record",
+        "Show": "Mostra",
+        "assign": "Assegna",
+        "show": "Mostra"
+      },
+      "pages": {},
+      "properties": {
+        "active": "Stato attivo/disattivo",
+        "controlset": "Set di controlli",
+        "controltype": "Tipo set controlli",
+        "controltype-STANDARD": "STANDARD",
+        "expected_risk_level_id": "livello_di_rischio_previsto_id",
+        "id": "Id"
+      },
+      "riskvalues": {
+        "buttons": {
+          "cancel": "Annulla",
+          "save": "Salva"
+        },
+        "labels": {
+          "relations_chooseItemHeader-addRiskValue": "Aggiungi valore di rischio"
+        },
+        "messages": {
+          "relations_chooseItemSubtitle-addRiskValue": "Aggiungi un nuovo valore di rischio per la metrica selezionata"
+        },
+        "properties": {
+          "description": "Descrizione",
+          "id": "Id",
+          "riskindex_id": "Indice Rischio",
+          "riskorder": "Ordine",
+          "riskvalue": "Valore Rischio"
+        }
+      },
+      "roles": {
+        "actions": {
+          "delete": "Elimina",
+          "edit": "Modifica Ruolo",
+          "list": "Ruoli",
+          "new": "Nuovo Ruolo",
+          "show": "Ruolo"
+        },
+        "buttons": {
+          "back-to-dashboard": "Dashboard",
+          "back-to-list": "Indietro",
+          "filter": "Filtra"
+        },
+        "labels": {
+          "edit_subtitle": "Modifica il titolo e/o la descrizione del ruolo selezionato",
+          "is_acm_activity_manager-false": "No",
+          "is_acm_activity_manager-true": "Si",
+          "is_acm_assignee-false": "No",
+          "is_acm_assignee-true": "Si",
+          "is_acm_manager-false": "No",
+          "is_acm_manager-true": "Si",
+          "is_campaign_manager-false": "No",
+          "is_campaign_manager-true": "Si",
+          "is_remediation_approver-false": "No",
+          "is_remediation_approver-true": "Si",
+          "is_remediation_manager-false": "No",
+          "is_remediation_manager-true": "Si",
+          "list_subtitle": "Gestisci ruoli",
+          "role_attributes": "Attributi del ruolo",
+          "roles": "Ruoli",
+          "show_subtitle": "Visualizza e gestisci i dettagli dei ruoli",
+          "user_roles": "Ruoli Utente"
+        },
+        "properties": {
+          "description": "Descrizione",
+          "id": "Id",
+          "role": "Ruolo"
+        }
+      },
+      "users": {
+        "actions": {
+          "delete": "Elimina",
+          "doDisable": "Disabilita",
+          "doEnable": "Abilita",
+          "edit": "Modifica Utente",
+          "list": "Utenti",
+          "new": "Nuovo Utente",
+          "sendInvitationLink": "Invia link di invito",
+          "sendResetLink": "Invia link di reset",
+          "show": "Utente"
+        },
+        "buttons": {
+          "back-to-dashboard": "Dashboard",
+          "back-to-list": "Indietro",
+          "filter": "Filtra",
+          "save": "Salva"
+        },
+        "labels": {
+          "active-false": "No",
+          "active-true": "Si",
+          "edit_subtitle": "Modifica i dettagli utenti",
+          "invitation_sent-false": "No",
+          "invitation_sent-true": "Si",
+          "list_subtitle": "Gestisci utenti",
+          "roles": "Ruoli",
+          "show_subtitle": "Visualizza e gestisci i dettagli dell'utente",
+          "users": "Utenti"
+        },
+        "properties": {
+          "active": "Stato",
+          "created_at": "Data di creazione",
+          "disabled_at": "Disabitato il",
+          "email": "email",
+          "firstname": "nome",
+          "id": "Id",
+          "lastname": "cognome"
+        }
+      }
+    },
+    "campaign-revision": {
+      "actions": {
+        "Pause": "Pausa",
+        "Start": "Avvia",
+        "Stop": "Ferma",
+        "createRemediationPlan": "Crea piano di remediation",
+        "doArchive": "Archivia",
+        "list": "Revisione campagne",
+        "show": "Revisione campagna",
+        "showCampaignTicketUsers": "Mostra dettagli"
+      },
+      "buttons": {
+        "cleanupRemediationPlan": "Svuota lista",
+        "createRemediationPlan": "Crea piano di remediation"
+      },
+      "labels": {
+        "appdomain": "Domini applicativi",
+        "campaign_type": "Tipo campagna",
+        "campaign_type.ASSESSMENT": "Assessment",
+        "campaign_type.AUDIT": "Audit",
+        "closeTo": "Mostra fino a",
+        "company": "Organizzazione",
+        "control": "Controllo",
+        "control_code": "Codice",
+        "controlplan": "Piano Controlli",
+        "controlset": "Set di controlli",
+        "cost_types": "Metrica Costi",
+        "createRemediationPlan": "Crea piano di remediation",
+        "defaultMetric": "Metrica attesa",
+        "defaultRiskIndex": "Indice di rischio atteso",
+        "done": "Completati",
+        "expected": "Atteso",
+        "filter_companies": "Filtra organizzazioni",
+        "filter_metric": "Filtra metrica",
+        "filter_metricoper": "Filtra per livello metrico",
+        "filter_metricvalues": "Filtra valori metrica",
+        "filter_riskindex": "Filtra set di rischio",
+        "filter_riskoper": "Filtra per livello di rischio",
+        "filter_riskvalues": "Filtra indici di rischio",
+        "fullname": "Utente",
+        "is_primary": "Princ.",
+        "list_subtitle": "Revisiona le campagne",
+        "metricvalue": "Metrica",
+        "noAttachment": "Nessuna evidenza",
+        "noAttachments": "Nessuna evidenza allegata",
+        "noEvidence": "Nessuna prassi",
+        "none": "Tutto",
+        "notClosed": "Non completati",
+        "onlyClosed": "solo Chiusi",
+        "onlyMetric": "solo metriche",
+        "onlyPrimary": "Solo metriche principali",
+        "perc": "Percentuale",
+        "riskvalue": "Indice di rischio",
+        "showCampaignTicketUsers_subtitle": "Visualizza i dettagli della campagna",
+        "show_subtitle": "Visualizza e gestisci i dettagli della campagna",
+        "status": "Stato",
+        "timing_types": "Metrica Tempi",
+        "todo": "Da completare",
+        "toggleMissing": "Filtra errori",
+        "tot": "Totale"
+      },
+      "messages": {
+        "AddAll": "Aggiungi tutti",
+        "AddTicket {{id}}": "Aggiungi controllo {{id}}",
+        "Assign": "Assegna",
+        "ConfirmArchive": "Confermi l'archiviazione della campagna?",
+        "MissingPayload": "Nessun controllo selezionato",
+        "RemoveTicket {{id}}": "Rimuovi {{id}}",
+        "Show": "Mostra",
+        "ShowTicket {{id}}": "Controllo {{id}}",
+        "add": "Aggiungi",
+        "assign": "assegna",
+        "createRemediationPlan": "Crea piano di remediation",
+        "noRecords": "Nessun elemento",
+        "remove": "Rimuovi",
+        "report-sub-title": " ",
+        "select": "Seleziona...",
+        "show": "Mostra"
+      },
+      "properties": {
+        "automated_notifications": "Notifiche Automatiche",
+        "campaign_type.ASSESSMENT": "Assessment",
+        "campaign_type.AUDIT": "Audit",
+        "closed_at": "terminato",
+        "ended_at": "data termine",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributesets": "Filtra per set attributi",
+        "filter_companies": "Filtra per organizzazione",
+        "has_missing": "controllo assegnazione utenti",
+        "monitoring": "Monitoraggio",
+        "progress": "avanzamento %",
+        "remediation_tasks": "Task di remediation",
+        "revision": "Revisione campagna",
+        "started_at": "data inizio"
+      }
+    },
+    "campaign_controlplans": {
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addControlplanToCampaign": "Aggiungi piano di controllo"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addControlplanToCampaign": " "
+      }
+    },
+    "campaign_domains": {
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addDomainToCampaign": "Aggiungi dominio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addDomainToCampaign": " "
+      }
+    },
+    "campaigns": {
+      "actions": {
+        "doArchive": "Archivia",
+        "edit": "Modifica campagna",
+        "importexport": "Import/Export",
+        "list": "Gestione campagne",
+        "new": "Nuova campagna",
+        "new-appdomains": "Aggiungi dominio",
+        "new-controlplans": "Aggiungi piano di controllo",
+        "new-cost_types": "Aggiungi metrica costi",
+        "new-timing_types": "Aggiungi metrica tempo",
+        "reopen": "Riapri",
+        "show": "Campagna",
+        "showCampaignTicketUsers": "Mostra dettagli",
+        "updatesReport": "Report aggiornamenti"
+      },
+      "labels": {
+        "CampaignUpdatesReport": "Report aggiornamenti campagna",
+        "SelectedRecords": "righe Generate",
+        "acm_campaign": "Attività ACM",
+        "automated_notifications-false": "No",
+        "automated_notifications-true": "Si",
+        "campaign_manager": "Responsabile della campagna",
+        "campaign_type": "Tipo",
+        "campaign_type-ASSESSMENT": "ASSESSMENT",
+        "campaign_type-AUDIT": "AUDIT",
+        "company": "Organizzazione",
+        "control": "Controlli",
+        "control_code": "Codice controlli",
+        "controlplans": "Piani di controllo",
+        "controls": "Set di controlli",
+        "controlset": "Set di controlli",
+        "cost_types": "Metrica Costi",
+        "customModalTitle-preview": "Custom Modal Title Preview",
+        "defaultMetric": "Metrica predefinita",
+        "defaultRiskIndex": "Indice di rischio predefinito",
+        "description": "Descrizione",
+        "domains": "Domini",
+        "domains_from_simulation": "Domini dalla simulazione",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributesets": "Filtra per set attributi",
+        "filter_companies": "Filtra per organizzazione",
+        "filter_domains": "Filtra per domini",
+        "filter_last_modification_user": "Filtra pre ultima modifica",
+        "filter_metric": "Filtra per metrica",
+        "filter_metricoper": "Filtra per livello metrico",
+        "filter_metricvalues": "Filtra per valori metrica",
+        "filter_riskindex": "Filtra per indici di rischio",
+        "filter_riskoper": "Filtra per livello di rischio",
+        "filter_riskvalues": "Filtra per valori di rischio",
+        "filter_users": "Filtra per utente",
+        "importexport_subtitle": "Import/export massivo delle prassi e delle metriche delle valutazioni",
+        "is_primary": "primario",
+        "list_subtitle": "Gestisci le campagne",
+        "metricvalue": "valori metrica",
+        "new_subtitle": "Crea una nuova campagna",
+        "noAttachments": "Non allegati",
+        "noEvidence": "Non evidenze",
+        "notClosed": "non chiusi",
+        "old_editions": "Campagne precedenti",
+        "onlyClosed": "solo Chiusi",
+        "onlyMetric": "solo metriche",
+        "rejected": "Rifiutati",
+        "remediation_approver": "Approvatore del piano di remediation",
+        "remediation_manager": "Responsabile del piano di remediation",
+        "report-sub-title": "Aggiungi una descrizione in testata al report",
+        "report-title": "Genera PDF",
+        "report_subtitle": "Genera Report",
+        "riskvalue": "valori di rischio",
+        "showCampaignTicketUsers_subtitle": "Visualizza i dettagli della campagna",
+        "show_reference_values-false": "No",
+        "show_reference_values-true": "Si",
+        "show_subtitle": "Visualizza e gestisci i dettagli della campagna",
+        "status": "Stato",
+        "status-ARCHIVED": "Archiviata",
+        "status-CREATED": "Creata",
+        "status-DRAFT": "Bozza",
+        "status-ENDED": "In revisione",
+        "status-OPENED": "Aperto",
+        "status-PAUSED": "In pausa",
+        "status-RUNNING": "Attiva",
+        "ticket_notes": "Note",
+        "timing_types": "Metrica tempi",
+        "use_ticket_lock-NO": "DISATTIVO",
+        "use_ticket_lock-OPTIONAL": "OPZIONALE",
+        "use_ticket_lock-YES": "ATTIVO",
+        "variant": "Tipologia",
+        "progress": "Avanzamento",
+        "due_date": "Scadenza",
+        "started_at": "Data inizio",
+        "campaign": "Campagna"
+      },
+      "messages": {
+        "Missing": "Ci sono {{count}} controlli non assegnati ad alcun utente",
+        "NoMissing": "Tutti i controlli sono assegnati ad almeno un utente",
+        "NotStarted": "Non ancora avviata",
+        "confirmReopen": "Confermi la riapertura del controllo ?"
+      },
+      "properties": {
+        "automated_notifications": "Notifiche Automatiche",
+        "ended_at": "data termine",
+        "has_missing": "controllo assegnazione utenti",
+        "progress": "stato avanzamento",
+        "started_at": "data inizio",
+        "use_ticket_lock-NO": "DISATTIVO",
+        "use_ticket_lock-OPTIONAL": "OPZIONALE",
+        "use_ticket_lock-YES": "ATTIVO",
+        "variant": "tipologia",
+        "variant-FROM_DUPLICATION": "da duplicazione",
+        "variant-FROM_SIMULATION": "da simulazione",
+        "variant-NORMAL": "Prima Campagna",
+        "variant-RELAUNCHED": "da rilancio",
+        "variant-SIMULATION": "da simulazione"
+      }
+    },
+    "ccp_campaigns": {
+      "properties": {
+        "ended_at": "Terminato il",
+        "started_at": "Iniziato il"
+      }
+    },
+    "ccp_tickets": {
+      "labels": {
+        "campaign_id": "Campagna",
+        "control": "Controllo",
+        "control_code": "Codice controllo",
+        "domain_id": "Dominio Applicativo",
+        "edit_subtitle": "Modifica i dettagli del controllo nel piano di controllo consolidato",
+        "notes": "Note",
+        "origin": "controllo di origine",
+        "show_subtitle": "Visualizza e gestisci i dettagli del controllo nel piano di controllo consolidato",
+        "soa_applicability": "applicabilita SOA",
+        "soa_applicability-false": "No",
+        "soa_applicability-true": "Si"
+      },
+      "messages": {
+        "add": "Aggiungi",
+        "addAll": "Aggiungi tutti",
+        "addSelected": "Aggiungi selezionati",
+        "edit": "Modifica SOA",
+        "show": "Mostra"
+      },
+      "pages": {
+        "metric_data": "Metrica"
+      },
+      "properties": {
+        "attachments.file": "Evidenze allegate",
+        "campaign_id": "Campagna",
+        "consolidated_controlplan_id": "Piano di controllo consolidato",
+        "evidence": "Prassi",
+        "metric_data": "Metrica",
+        "origin": "controllo di origine",
+        "soa_applicability": "applicabilita SOA",
+        "soa_brief_practice": "prassi SOA",
+        "soa_rationale": "razionale SOA"
+      }
+    },
+    "charts": {
+      "labels": {
+        "ASSIGNED": "Assegnati",
+        "CLOSED": "Chiusi",
+        "CREATED": "Nuovi",
+        "General": "Avanzamento Generale",
+        "Negative": "inferiore a livello atteso",
+        "OPENED": "Aperti",
+        "Positive": "superiore o uguale a livello atteso",
+        "Scostamento": "Stato di Maturità",
+        "Ticket": "Controlli",
+        "WORKING": "In valutazione",
+        "_NOASSIGN_": "Nessun controllo assegnato",
+        "_NOEVAL_": "Nessun controllo valutato",
+        "_NORECENT_": "Nessuna campagna attiva"
+      }
+    },
+    "combined_tickets": {
+      "labels": {
+        "is_acm": "Controllo ACM",
+        "status-ASSIGNED": "Assegnato",
+        "status-CLOSED": "Valutato",
+        "status-CREATED": "Nuovo",
+        "status-ENDED": "Terminato",
+        "status-OPENED": "Aperto",
+        "status-REJECTED": "Rifiutato"
+      }
+    },
+    "companies": {
+      "actions": {
+        "edit": "Modifica organizzazione",
+        "list": "Elenco organizzazioni",
+        "new": "Nuova organizzazione",
+        "new-user_roles": "Aggiungi ruolo utente",
+        "show": "Organizzazione"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli dell'organizzazione",
+        "list_subtitle": "Gestisci le organizzazioni",
+        "new_subtitle": "Inserisci i dettagli della nuova organizzazione",
+        "show_subtitle": "Visualizza e gestisci i dettagli dell'organizzazione"
+      }
+    },
+    "company_types": {
+      "actions": {
+        "List": "Tipo organizzazione",
+        "list": "Tipo organizzazione",
+        "new": "Crea nuova tipologia",
+        "show": "Tipologia dell'organizzazione"
+      },
+      "buttons": {
+        "filter": "Filtra"
+      },
+      "labels": {
+        "CompanyTypes": "Tipologie organizzazione",
+        "company_types": "Tipo organizzazione",
+        "edit_subtitle": "Modifica i dettagli delle tipologie dell'organizzazione",
+        "list_subtitle": "Gestisci le tipologie dell'organizzazione",
+        "new_subtitle": "Crea una nuova tipologia di organizzazione",
+        "show_subtitle": "Visualizza e gestisci i dettagli delle tipologie dell'organizzazione"
+      },
+      "pages": {
+        "company_type": "Tipi organizzazioni"
+      },
+      "properties": {
+        "company_type": "Tipo organizzazione",
+        "id": "Id"
+      }
+    },
+    "consolidated_controlplans": {
+      "labels": {
+        "campaign_id": "Campagna",
+        "ccp_campaigns": "Campagne",
+        "ccp_domains": "Domini Applicativi",
+        "ccp_tickets": "Controlli",
+        "control": "Controllo",
+        "control_code": "Codice controllo",
+        "domain_id": "Dominio Applicativo",
+        "edit_subtitle": "Modifica i dettagli del piano di controllo consolidato",
+        "evaluate_soa": "Controlli SOA da valutare",
+        "populated": "Valorizzati",
+        "show_subtitle": "Visualizza e gestisci i dettagli del piano di controllo consolidato",
+        "soa_applicability": "applicabilita SOA"
+      },
+      "messages": {
+        "cleanupList": "Pulisci lista",
+        "remove": "Rimuovi",
+        "setSOAData": "Imposta dati SOA",
+        "show": "Mostra"
+      },
+      "properties": {
+        "created_by": "Creato da",
+        "evaluate_soa": "Controlli SOA da valutare",
+        "origin": "origine",
+        "soa_date": "Data SOA",
+        "soa_tasks": "Valutazione SOA Massiva",
+        "soa_version": "Versione SOA"
+      }
+    },
+    "control_attributetypes": {
+      "labels": {
+        "relations_chooseItemHeader-addAttribute": "Aggiungi attributo"
+      },
+      "messages": {
+        "modal-subTitle": "Attributo dal controllo",
+        "relations_chooseItemSubtitle-addAttribute": "Seleziona un attributo da aggiungere al controllo"
+      }
+    },
+    "control_match_types": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica tipologia",
+        "list": "Tipologie di abbinamenti tra controlli",
+        "new": "Crea nuovo tipo di abbinamento"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "filterActive": "Filtro (1)",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica tipologia di abbinamento",
+        "list_subtitle": "Gestisci le tipologie degli abbinamenti",
+        "new_subtitle": "Crea una nuova tipologia di abbinamenti di controllo"
+      },
+      "properties": {
+        "description": "Descrizione",
+        "id": "Id",
+        "match_type": "Tipologia abbinamento",
+        "order": "Ordinamento"
+      }
+    },
+    "control_matches": {
+      "actions": {
+        "delete": "Elimina controllo",
+        "edit": "Modifica controllo",
+        "list": "Abbinamenti tra controlli",
+        "show": "Visualizza controllo"
+      },
+      "buttons": {
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "MasterFilter": "Filtro controllo principale",
+        "SlaveFilter": "Filtro controllo abbinato",
+        "closeable-master_id": "Controllo Master",
+        "closeable-slave_id": "Controllo Slave",
+        "compatibility": "Compatibilità",
+        "compliance_match_id": "di conformità",
+        "controlset_id": "Set di controlli",
+        "edit_subtitle": "Modifica il controllo",
+        "list_subtitle": "Gestisci gli abbinamenti",
+        "master": "Controllo principale",
+        "master_control_id": "Master Control Id",
+        "master_controlset_id": "Master Controlset Id",
+        "note": "Note",
+        "organizational_match_id": "organizzativa",
+        "reciprocal": "Reciprocità",
+        "reciprocity.true": "Vero",
+        "show_subtitle": "Vedi i dettagli del controllo e dei suoi abbinamenti",
+        "slave": "Controllo abbinato",
+        "slave_control_id": "Slave Control Id",
+        "slave_controlset_id": "Slave Controlset Id",
+        "technology_match_id": "tecnologica"
+      },
+      "messages": {
+        "NoControlSelected": "Nessun controllo selezionato"
+      },
+      "properties": {
+        "compatibility": "Compatibilità",
+        "compliance_match_id": "Abbinamento di conformità",
+        "controlset_id": "Set di controlli",
+        "organizational_match_id": "Abbinamento Organizzativo",
+        "reciprocity": "Reciprocità",
+        "technology_match_id": "Abbinamento tecnologico"
+      }
+    },
+    "control_metric": {
+      "actions": {
+        "edit": "Metriche e rischi",
+        "new-metric_riskvalues": "Aggiungi associazione rischio-metrica",
+        "show": "Metriche e rischi"
+      },
+      "properties": {
+        "filled": "Tutti Associati"
+      }
+    },
+    "controlfamily": {
+      "actions": {
+        "edit": "Modifica Famiglia di controlli",
+        "list": "Famiglia di controlli",
+        "new": "Nuova Famiglia di controlli",
+        "show": "Famiglia di controlli"
+      }
+    },
+    "controlplans": {
+      "actions": {
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "duplicate": "Duplica",
+        "edit": "Modifica piano di controllo",
+        "list": "Piani di controllo",
+        "new": "Nuovo piano di controllo",
+        "show": "Piano di controllo",
+        "showAttributes": "Mostra attributi"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo",
+        "edit_subtitle": "Gestisci il piano di controllo",
+        "list_subtitle": "Gestisci i piani di controllo",
+        "new_subtitle": "Dai un titolo al piano di controllo",
+        "relations_chooseItemHeader-": "Seleziona",
+        "showAttributes_subtitle": "Gestisci gli attributi",
+        "show_subtitle": "Visualizza e gestisci i dettagli del piano di controllo",
+        "destination_controlset": "Set di controlli di destinazione",
+        "destination_control_code": "Codice controllo di destinazione",
+        "source_controlset": "Set di controlli di sorgente",
+        "source_control_code": "Codice controllo di sorgente",
+        "technology_match_type": "Abbinamento tecnologico",
+        "organizational_match_type": "Abbinamento organizzativo",
+        "compliance_match_type": "Abbinamento di conformità",
+        "metric": "Metrica",
+        "metricvalue": "Valore metrica"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-": "Seleziona un elemento da aggiungere"
+      }
+    },
+    "controls": {
+      "actions": {
+        "edit": "Modifica controllo",
+        "new": "Nuovo controllo",
+        "new-control_attributetypes": "Aggiungi attributo",
+        "show": "Controllo"
+      },
+      "labels": {
+        "appendChild_subtitle": "Aggiungi un controllo figlio al controllo selezionato",
+        "control": "Titolo controllo",
+        "control_code": "Codice controllo",
+        "description": "Descrizione controllo",
+        "edit_subtitle": "Modifica i dettagli del controllo selezionato",
+        "extended_description": "descrizione estesa",
+        "list_subtitle": "Visualizza e gestisci tutti i controlli",
+        "new_subtitle": "Inserisci i dettagli del nuovo controllo",
+        "show_subtitle": "Visualizza e gestisci i dettagli del controllo"
+      },
+      "properties": {
+        "byMaturity": "Per maturità",
+        "includeACM": "Includi ACM",
+        "includeNotMatched": "Includi non corrisposti",
+        "control": "Titolo controllo",
+        "control_code": "Codice controllo",
+        "control_id": "Controllo",
+        "description": "Descrizione controllo",
+        "extended_description": "descrizione estesa"
+      }
+    },
+    "controlset_attributeset": {
+      "buttons": {
+        "save": "Aggiungi"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addAttributeSet": "Aggiungi un set di attributi"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addAttributeSet": "Seleziona un set di attributi da aggiungere"
+      }
+    },
+    "controlset_metric": {
+      "actions": {
+        "Back": "Indietro",
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "editAttributes": "Edit Attributes",
+        "show": "Dettagli metrica"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli della metrica",
+        "metricvalues": "Valori Metriche",
+        "relations_chooseItemHeader-addControlsetMetric": "Aggiungi metrica",
+        "riskvalues": "Valori di Rischio",
+        "show_subtitle": "Visualizza i valori della metrica e gli indici di rischio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addControlsetMetric": "Aggiungi una nuova metrica"
+      },
+      "properties": {
+        "expected_level_id": "Livello Atteso",
+        "filled": "Rischio associato",
+        "id": "Id",
+        "is_primary": "Principale",
+        "metric_id": "Metrica",
+        "riskindex_id": "Indice Rischio"
+      }
+    },
+    "controlset_metric_riskvalues": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica"
+      },
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addControlsetRiskMetric": "Abbinamento metriche/valori di rischio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addControlsetRiskMetric": "Aggiungi un abbinamento tra metriche e valori di rischio",
+        "relations_noRelationRecords": "Non ci sono elementi in \"Controlset Metric Riskvalues\" associati",
+        "relations_noRelationRecordsTitle": "Non ci sono dati"
+      },
+      "properties": {
+        "id": "Id",
+        "metricvalue_id": "Valore Metrica",
+        "riskvalue_id": "Valore Rischio"
+      }
+    },
+    "controlsets": {
+      "actions": {
+        "delete": "Elimina set di controlli",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica set di controlli",
+        "editAttributes": "Visualizza e modifica attributi",
+        "list": "Controlli",
+        "new": "Nuovo set di controlli",
+        "new-attributesets": "Aggiungi set attributi",
+        "new-control_metric": "Aggiungi metrica",
+        "new-controls": "Aggiungi controllo",
+        "new-controlset_metric": "Aggiungi metrica",
+        "show": "Visualizza set di controlli"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo",
+        "attributesets": "Set di attributi",
+        "control_metric": "Metriche per livello",
+        "controls": "Controlli",
+        "controlset_metric": "Metriche principali",
+        "editAttributes_subtitle": "Visualizza e modifica gli attributi per ogni controllo",
+        "edit_subtitle": "Modifica il set di controlli",
+        "list_subtitle": "Gestisci i set di controlli",
+        "new_subtitle": "Nuovo set di controlli",
+        "show_subtitle": "Visualizza e gestisci i dettagli del set di controlli"
+      },
+      "messages": {
+        "AllChecksOK": "Il controlset è completo",
+        "MissingAttributeTypes {{count}}": "{{count}} Controlli non hanno attributi associati",
+        "NoAllLevelsHasMetrics": "Non tutti i livelli hanno metriche associate",
+        "NoAttributes": "Nessun set di attributi assegnato",
+        "NoAttributetypes": "Nessun set di attributi associato",
+        "NoControlPrimaryMetricsFilled": "Non sono state compilate le metriche principali dei controlli",
+        "NoControls": "Nessun controllo nel piano",
+        "NoControlsetMetrics": "Nessun set di controllo nelle metriche",
+        "NoMetrics": "Nessuna metrica di control set",
+        "NotAllControlsMetricsFilled": "Non tutte le metriche dei controlli sono state compilate",
+        "NotAllControlsetMetricsFilled": "Alcune tipologie di metriche non sono state compilate",
+        "NotAllMetricsFilled": "Non tutti i valori di metriche sono associate a valori di rischio"
+      },
+      "pages": {
+        "active": "Stato",
+        "checks": "Verifica",
+        "controlset": "Set di controllo",
+        "controltype": "Tipo controllo",
+        "description": "Descrizione",
+        "id": "Id"
+      },
+      "properties": {
+        "active": "Stato",
+        "checks": "Verifica",
+        "controlset": "Set di controlli",
+        "controlset_id": "Set di controlli",
+        "controltype": "Tipo controllo",
+        "description": "Descrizione",
+        "id": "Id"
+      }
+    },
+    "cost_types": {
+      "actions": {
+        "edit": "Modifica Metrica Costi",
+        "list": "Metrica Costi",
+        "new": "Nuova Metrica Costi",
+        "new-cost_types": "Aggiungi metrica costi",
+        "show": "Metrica Costi"
+      }
+    },
+    "costs": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica Costo",
+        "list": "Costi",
+        "new": "Nuovo Costo",
+        "show": "Costo"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra"
+      },
+      "labels": {
+        "costs": "Costi",
+        "edit_subtitle": "Modifica i dettagli dei costi",
+        "list_subtitle": "Gestisci i costi",
+        "new_subtitle": "Crea un nuovo costo",
+        "show_subtitle": "Visualizza e gestisci i dettagli dei costi"
+      },
+      "messages": {
+        "CostHelpText": "La colonna 'Ordine' è un numero progressivo, ordina in maniera crescente le etichette di costo\nIl 'Valore' indica un valore numerico da associare alla metrica"
+      },
+      "properties": {
+        "code": "Codice",
+        "cost": "Costo",
+        "cost_order": "Ordine",
+        "cost_type": "Descrizione",
+        "cost_value": "Valore",
+        "help": "aiuto"
+      }
+    },
+    "cp_control_metric": {
+      "actions": {
+        "new-cp_metric_riskvalues": "Aggiungi associazione rischi"
+      }
+    },
+    "cp_controls": {
+      "labels": {
+        "relations_customModalTitle-show": "Dettaglio controllo",
+        "show": "Visualizza controllo"
+      },
+      "messages": {
+        "show-show": ""
+      }
+    },
+    "cp_controlsets": {
+      "actions": {
+        "doEnableDisable": "Attiva/Disattiva",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "list": "Set di Controlli",
+        "show": "Set di Controlli"
+      },
+      "labels": {
+        "active-false": "No",
+        "active-true": "Si",
+        "control_metric": "Metriche per Livello",
+        "controls": "Set di controlli",
+        "controlset_attributeset": "Attributi",
+        "controlset_metric": "Metriche principali",
+        "controltype-CUSTOM": "CUSTOM",
+        "controltype-STANDARD": "STANDARD",
+        "cp_controlsets": "Piani per set di controlli",
+        "list_subtitle": "Gestisci i piani di controllo",
+        "show_subtitle": "Mostra sottotitoli"
+      },
+      "pages": {},
+      "properties": {
+        "active": "Stato attivo/inattivo",
+        "controlplan_id": "Id Piano Controlli",
+        "controlset": "Set di controlli",
+        "controltype": "Tipo di set di controllo",
+        "controltype-STANDARD": "STANDARD",
+        "description": "Descrizione",
+        "id": "Id"
+      }
+    },
+    "cp_metric_riskvalues": {
+      "actions": {
+        "new-cp_metric_riskvalues": "Aggiungi associazione rischi",
+        "relations_chooseItemHeader-addRiskMetric": "Aggiungi associazione rischi"
+      }
+    },
+    "dashboard": {
+      "messages": {
+        "AppDomainSubtitle": "Gestione dei domini applicativi, organizzazioni, utenti e ruoli",
+        "AppDomainTitle": "Domini applicativi",
+        "CampaigTitle": "Campagne",
+        "CampaignSubtitle": "Gestione delle Campagne",
+        "ControlSetSubtitle": "Gestione dei set di controlli di base",
+        "ControlSetTitle": "Set di controlli",
+        "ControlplanSubtitle": "Gestione dei piani di controllo",
+        "ControlplanTitle": "Piani di controllo",
+        "MonitoringSubtitle": "Gestione monitoraggio campagne",
+        "MonitoringTitle": "Monitoraggio campagne",
+        "ParametersSubtitle": "Gestione parametri di sistema",
+        "ParametersTitle": "Parametri",
+        "RemediationplanSubtitle": "Gestione piani di remediation",
+        "RemediationplanTitle": "Remediation",
+        "RevisionSubtitle": "Gestione revisione campagne",
+        "RevisionTitle": "Revisione campagne",
+        "SubmissionSubtitle": "Gestione valutazione controlli",
+        "SubmissionTitle": "Valutazione controlli e RP",
+        "dashboard_title": "Dashboard CPMS",
+        "welcomeOnBoard_message": "Questa è la dashboad di CPMS. Qui puoi gestire i tuoi dati e le tue risorse. Buon lavoro!",
+        "welcomeOnBoard_subtitle": "Sei ora uno di noi! Preparati per alcuni consigli per iniziare:",
+        "welcomeOnBoard_title": "Benvenuto in Logiquo!"
+      }
+    },
+    "email_templates": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "modifica template email",
+        "list": "Templates email",
+        "new": "Crea nuovo",
+        "show": "template email"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo",
+        "edit_subtitle": "modifica i parametri del template email",
+        "list_subtitle": "Gestisci i templates delle email",
+        "new_subtitle": "crea un nuovo email template",
+        "show_subtitle": "visualizza i dettagli del template"
+      },
+      "properties": {
+        "active": "Stato",
+        "body": "Corpo",
+        "description": "Descrizione",
+        "id": "Id",
+        "purpose": "scopo",
+        "purpose-INVITATION_LINK": "Link di invito",
+        "updated_at": "ultimo aggiornamento"
+      }
+    },
+    "help": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Lista",
+        "new": "Crea nuovo",
+        "show": "Mostra"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "action-edit": "modifica",
+        "action-list": "elenco",
+        "action-show": "mostra",
+        "edit_subtitle": "Modifica i dettagli degli aiuti",
+        "list_subtitle": "Gestisci gli aiuti",
+        "new_subtitle": "Crea un nuovo aiuto",
+        "show_subtitle": "Visualizza e gestisci i dettagli degli aiuti"
+      },
+      "pages": {
+        "action": "Azione",
+        "id": "Id",
+        "page": "Pagina",
+        "updated_at": "Aggiornamento"
+      },
+      "properties": {
+        "action": "Azione",
+        "action-edit": "Modifica",
+        "action-list": "Elenco",
+        "action.edit": "Modifica",
+        "action.list": "Elenco",
+        "help": "Aiuto",
+        "id": "Id",
+        "page": "Pagina",
+        "page-attributesets": "Set di attributi",
+        "page-attributetypes": "Tipi di attributi",
+        "page-controlsets": "Set di controllo",
+        "page-metrics": "Metriche",
+        "page-user_roles": "Ruoli utente",
+        "page.attributesets": "Set di attributi",
+        "page.controlsets": "Set di controllo",
+        "page.metrics": "Metriche",
+        "updated_at": "Aggiornato"
+      }
+    },
+    "messages": {
+      "NoFileUploaded": "Nessun file caricato",
+      "Required": "Campo obbligatorio",
+      "select": "Seleziona"
+    },
+    "meta_assets": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Meta assets",
+        "new": "Crea nuovo"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli dei meta assets",
+        "list_subtitle": "Visualizza e gestisci i meta assets",
+        "new_subtitle": "Crea un nuovo meta asset"
+      },
+      "properties": {
+        "description": "Descrizione",
+        "id": "Id",
+        "meta_asset": "Meta Asset"
+      }
+    },
+    "metric_riskvalues": {
+      "actions": {},
+      "labels": {
+        "relations_chooseItemHeader-addRiskMetric": "Associazione metriche-rischi"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addRiskMetric": "Aggiungi una nuova associazione"
+      },
+      "properties": {
+        "control_metric_id": "Id Controllo Metrica"
+      }
+    },
+    "metrics": {
+      "actions": {
+        "delete": "Elimina",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica metrica",
+        "list": "Metriche",
+        "new": "Nuova metrica",
+        "new-metricvalues": "Aggiungi valore metrica",
+        "show": "Metrica"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "active-false": "Disattivo",
+        "active-true": "Attivo",
+        "edit_subtitle": "Modifica il valore della metrica selezionato",
+        "is_expected_value": "Valore atteso",
+        "list_subtitle": "Gestisci le metriche",
+        "metrics": "Metriche",
+        "metrictype-ASSESSMENT": "ASSESSMENT",
+        "metrictype-AUDIT": "AUDIT",
+        "metricvalues": "Valori Metriche",
+        "new_subtitle": "Crea una nuova metrica",
+        "show_subtitle": "Visualizza e gestisci i dettagli e i valori della metrica",
+        "valuetype-PERCENT": "PERCENT",
+        "valuetype-RANGE": "RANGE",
+        "valuetype-SET": "SET"
+      },
+      "messages": {
+        "MetricHelpText": "La colonna 'Ordine' indica la posizione in cui la metrica verrà visualizzata nella tabella di valutazione del controllo, più è altro il suo valore maggiore è la qualità del controllo"
+      },
+      "properties": {
+        "active": "Stato",
+        "description": "Descrizione",
+        "help": "Aiuto",
+        "helpText": "Indicazioni alla compilazione",
+        "id": "Id",
+        "is_expected_value": "Valore atteso",
+        "metric": "Metrica",
+        "metrictype": "Tipo Metrica",
+        "metrictype-ASSESSMENT": "ASSESSMENT",
+        "std_expected_value": "Valore atteso standard"
+      }
+    },
+    "metricvalues": {
+      "actions": {
+        "edit": "Modifica Valore Metrica",
+        "list": "Valori Metrica",
+        "new": "Nuovo Valore Metrica",
+        "show": "Valore Metrica"
+      },
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "is_expected_value-false": "No",
+        "is_expected_value-true": "Si",
+        "relations_chooseItemHeader-addMetricValue": "Aggiungi valore metrica",
+        "relations_customModalTitle-edit": "Modifica metrica",
+        "relations_customModalTitle-show": "Visualizza metrica"
+      },
+      "messages": {
+        "edit-edit": "modifica",
+        "relations_chooseItemSubtitle-addMetricValue": "Aggiungi un nuovo valore per la metrica selezionata",
+        "show-show": "mostra"
+      },
+      "properties": {
+        "description": "Descrizione",
+        "id": "Id",
+        "is_expected_value": "Valore atteso",
+        "metric_id": "Metrica",
+        "metricorder": "Ordine",
+        "metricvalue": "Valore Metrica"
+      }
+    },
+    "news": {
+      "actions": {
+        "list": "Notizie",
+        "new": "Crea nuovo",
+        "show": "Notizia"
+      },
+      "buttons": {
+        "filter": "Filtra"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli delle notizie",
+        "list_subtitle": "Gestisci le notizie",
+        "new_subtitle": "Crea una nuova notizia",
+        "show_subtitle": "Visualizza e gestisci i dettagli della notizia"
+      },
+      "pages": {
+        "created_at": "Data di creazione",
+        "id": "Id",
+        "title": "versione"
+      },
+      "properties": {
+        "content": "Contenuto",
+        "created_at": "Data di creazione",
+        "title": "Versione"
+      }
+    },
+    "parameters": {
+      "labels": {
+        "list_subtitle": "Gestisci i parametri di configurazione"
+      }
+    },
+    "regulatory_scopes": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "Lista",
+        "new": "Crea nuovo"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica sottotitolo",
+        "list_subtitle": "Elenco sottotitoli",
+        "new_subtitle": "nuovo sottotitolo",
+        "regulatory_scopes": "Ambiti normativi"
+      },
+      "properties": {
+        "id": "Id",
+        "regulatory_scope": "Ambito normativo"
+      }
+    },
+    "remediation-evaluation": {
+      "actions": {
+        "list": "Valutazione Piano di Remediation"
+      },
+      "labels": {
+        "all": "Tutti",
+        "anyUser": "Qualsiasi Utente",
+        "filter_companies": "Filtra organizzazione",
+        "filter_remediation_plans": "Filtra Remediation Plans",
+        "list_subtitle": "Valuta le attività del remediation plan"
+      }
+    },
+    "remediation_plans": {
+      "actions": {
+        "Approve": "Approva",
+        "Reject": "Rifiuta",
+        "Start": "Avvia",
+        "Stop": "Ferma",
+        "delete": "Elimina",
+        "edit": "Modifica piano di remediation",
+        "list": "Piani di Remediation",
+        "new": "Nuovo piano di remediation",
+        "report": "Report",
+        "show": "Piano di remediation"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra"
+      },
+      "labels": {
+        "SelectedRecords": "righe Generate",
+        "closeable-campaign_id": "Campagna associata",
+        "company": "Organizzazione",
+        "control": "Controlli",
+        "control_code": "Codice controlli",
+        "controlset": "Set di controlli",
+        "expected": "valore atteso",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributesets": "Filtra per set attributi",
+        "filter_companies": "Filtra per organizzazione",
+        "filter_domains": "Filtra per domini",
+        "list_subtitle": "Gestisci i piani di remediation",
+        "notCompleted": "non completati",
+        "onlyCompleted": "completati",
+        "onlyMandatory": "obbligatori",
+        "remediation_tasks": "Controlli da eseguire",
+        "report-title": "Genera PDF",
+        "report_subtitle": "Visualizza il Report del piano di remediation",
+        "show_subtitle": "Visualizza e gestisci i dettagli del piano di remediation",
+        "status": "Stato",
+        "status-RUNNING": "In esecuzione",
+        "surveyed": "valutazione"
+      },
+      "messages": {
+        "CannotStopMissing {{num}}": "Non è possibile fermare il piano di remediation perché ci sono {{num}} task non completati",
+        "noRecords": "Nessun elemento",
+        "report-sub-title": " ",
+        "select": "Seleziona"
+      },
+      "properties": {
+        "campaign_id": "Campagna",
+        "closed_at": "Chiuso il",
+        "ended_at": "Data termine",
+        "remediation": "Nome piano",
+        "started_at": "Iniziato il"
+      }
+    },
+    "remediation_riskmetric_tasks": {
+      "buttons": {
+        "completed": "Finalizza",
+        "save": "Salva"
+      },
+      "labels": {
+        "closeable-ticket_id": "Controllo associato",
+        "completed-false": "No",
+        "completed-true": "Si",
+        "cost_id": "Stima impatto economico",
+        "mandatory-false": "No",
+        "mandatory-true": "Si",
+        "metric_type": "Metrica attesa",
+        "metricvalue_description": "Valore metrica attesa",
+        "relations_customModalTitle-edit": "Attività di remediation",
+        "relations_customModalTitle-show": "Attività di remediation",
+        "relations_chooseItemHeader-addRiskMetricTask": "Attività di remediation",
+        "risk_type": "Indice di Rischio atteso",
+        "riskmetric_acm": "Attività ACM collegate",
+        "riskvalue_description": "Valore rischio atteso",
+        "timing_id": "Stima tempo richiesto"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addRiskMetricTask": "Aggiungi una nuova attività di remediation",
+        "confirmClose": "Sei sicuro di voler finalizzare questa attività di remediation?",
+        "edit": "Aggiorna attività",
+        "edit-edit": "Valuta attività di remediation",
+        "messages.edit-edit": "-",
+        "show-show": "Visualizza attività di remediation"
+      },
+      "properties": {
+        "action": "Attività da intraprendere",
+        "completed": "Completato",
+        "completed_new": "Completato",
+        "cost_id": "Costi",
+        "expected": "Atteso",
+        "expected_new": "Metrica Attesa",
+        "last_updated_by": "Ultima modifica",
+        "mandatory": "Obbligatorio",
+        "mandatory_new": "Obbligatorio",
+        "remediation_task_id": "Task di Remediation",
+        "timing_id": "Tempistiche"
+      }
+    },
+    "remediation_tasks": {
+      "actions": {
+        "Assign": "Assegna",
+        "Close": "Chiudi",
+        "Reopen": "Riapri",
+        "assign": "Assegna",
+        "assignUsers": "Assegna utenti selezionati",
+        "edit": "Modifica Task di Remediation",
+        "list": "Task di Remediation",
+        "new": "Nuovo Task di Remediation",
+        "save": "Assegna",
+        "show": "Task di Remediation"
+      },
+      "labels": {
+        "closeable-ticket_id": "Controllo associato",
+        "mandatory_done-false": "No",
+        "mandatory_done-true": "Si",
+        "metricbased": "Basato su metrica",
+        "relations_chooseItemHeader-bulkAssignUsers": "Seleziona gli utenti da assegnare ai task selezionati",
+        "relations_customModalTitle-assignUsers": "Associazione utenti",
+        "remediation_plans": "Piano di Remediation",
+        "remediation_riskmetric_tasks": "Valutazione Rischi/Metriche",
+        "riskbased": "Basato su rischio",
+        "save": "Salva",
+        "show_subtitle": "Stima i costi e le tempistiche del task di remediation",
+        "status": "Stato",
+        "status-ASSIGNED": "Assegnato",
+        "status-CANCELLED_ACM": "Annullato in ACM",
+        "status-CLOSED": "Chiuso",
+        "status-CLOSED_ACM": "Chiuso in ACM",
+        "status-CREATED": "Creato",
+        "status-IN_ACM": "In ACM",
+        "status-OPENED": "Aperto"
+      },
+      "messages": {
+        "NoAssignedUsers": "Nessun utente assegnato",
+        "assignUsers-assignUsers": "selezione utenti",
+        "relations_chooseItemSubtitle-bulkAssignUsers": " "
+      },
+      "pages": {
+        "assigned_users": "Utenti assegnati",
+        "expected": "Atteso",
+        "notValues": "Nessun Valore",
+        "player": "Azioni",
+        "surveyed": "Rilevato",
+        "task_type": "Tipo"
+      },
+      "properties": {
+        "assigned_users": "Utenti assegnati",
+        "control_description": "descrizione controllo",
+        "expected": "Atteso",
+        "expected_metricvalue_id": "Metrica attesa",
+        "expected_riskvalue_id": "Rischio atteso",
+        "last_updated_by": "Utente Ultima modifica",
+        "mandatory": "Obbligatorio",
+        "mandatory_done": "Obblig.",
+        "metricvalue_id": "Metrica rilevata",
+        "notValues": "Nessun Valore",
+        "remediation_plan_id": "Piano di Remediation",
+        "riskvalue_id": "Rischio rilevato",
+        "surveyed": "Rilevato",
+        "task_type": "Tipo",
+        "ticket_id": "Controllo"
+      }
+    },
+    "remediation_tasks-evaluation": {
+      "actions": {
+        "Assign": "Assegna",
+        "Close": "Chiudi",
+        "list": "Valutazione Piano di Remediation",
+        "show": "Mostra"
+      },
+      "labels": {
+        "all": "Tutti",
+        "anyUser": "Qualsiasi Utente",
+        "closeable-ticket_id": "Controllo associato",
+        "cost_id": "Stima impatto economico",
+        "filter_companies": "Filtra Organizzazioni",
+        "filter_remediation_plans": "Filtra Remediation Plans",
+        "list_subtitle": "Valuta le attività del remediation plan",
+        "metric_type": "Metrica attesa",
+        "metricbased": "Basato su metrica",
+        "metricvalue_description": "Valore metrica attesa",
+        "relations_customModalTitle-edit": "Modifica Task di Remediation",
+        "remediation_riskmetric_tasks": "Tasks metriche di Remediation",
+        "risk_type": "Indice di Rischio atteso",
+        "riskvalue_description": "Valore rischio atteso",
+        "show_subtitle": "Visualizza e gestisci i dettagli del profilo di rischio",
+        "status": "Stato",
+        "status-ASSIGNED": "Assegnato",
+        "status-CLOSED": "Chiuso",
+        "status-CREATED": "Creato",
+        "status-OPENED": "Aperto",
+        "timing_id": "Stima tempo richiesto"
+      },
+      "properties": {
+        "assigned_users": "Utenti assegnati",
+        "expected": "Atteso",
+        "expected_metricvalue_id": "Metrica attesa",
+        "expected_riskvalue_id": "Rischio atteso",
+        "last_updated_by": "Utente Ultima modifica",
+        "mandatory": "Obbligatorio",
+        "metricvalue_id": "Metrica rilevata",
+        "remediation_plan_id": "Piano di Remediation",
+        "riskvalue_id": "Rischio rilevato",
+        "surveyed": "Rilevato",
+        "task_type": "Tipo attività",
+        "ticket_id": "Controllo"
+      }
+    },
+    "remediation_to_acm": {
+      "buttons": {
+        "cleanUpAcmPlan": "Pulisci lista",
+        "createAcmPlan": "Crea attività ACM"
+      },
+      "labels": {
+        "closeable-campaign_id": "Campagna associata",
+        "control": "Controllo",
+        "control_code": "Codice controllo",
+        "controlset": "Set di controlli",
+        "createACMActivities": "Crea attività ACM",
+        "domain": "Dominio Applicativo",
+        "expected": "Valore atteso",
+        "expectedMetric": "Metrica attesa",
+        "expectedRiskIndex": "Rischio atteso",
+        "filter_attributes": "Filtra per attributi",
+        "filter_attributeset": "Filtra Set di Attributi",
+        "filter_companies_for_acm": "Filtra Organizzazioni",
+        "filter_domains_for_acm": "Filtra Domini Applicativi",
+        "filter_metric": "Filtra metrica",
+        "filter_metricvalues": "Filtra valori metrica",
+        "filter_riskindex": "Filtra per indici di rischio",
+        "filter_riskvalues": "Filtra per valori di rischio",
+        "in_acm_plan": "In piano ACM",
+        "list_subtitle": "Elenco attività ACM",
+        "notInACMPlan": "Non in piano ACM",
+        "onlyClosed": "Solo completati",
+        "onlyDescription": "Solo con descrizione",
+        "remediationToAcmForCompany {{companyId}}": "Crea attività ACM per l'organizzazione {{companyId}}",
+        "show_subtitle": "Visualizza i dati per creare attività ACM legate a questo piano di remediation",
+        "status": "Stato",
+        "status-APPROVED": "Approvato",
+        "surveyed": "Valutazione",
+        "target": "obiettivo",
+        "targetMetric": "Metrica rilevata",
+        "targetRiskIndex": "Rischio rilevato",
+        "type-AC": "AC",
+        "type-AM": "AM"
+      },
+      "messages": {
+        "AddRemediationMetricTask {{id}}": "Aggiungi task di remediation {{id}}",
+        "CreateAcmPlanFrom {{id}}": "Crea attività ACM da remediation task {{id}}",
+        "RemoveRemediationTask {{id}}": "Rimuova task di remediation {{id}}",
+        "ShowRemediationTask {{id}}": "Mostra task di remediation {{id}}",
+        "add": "Aggiungi",
+        "cleanupAcmPlan": "Pulisci lista",
+        "createAcmPlan": "Crea attività ACM",
+        "createAcmPlanFrom": "Crea attività ACM",
+        "remove": "Rimuovi",
+        "show": "Mostra"
+      },
+      "properties": {
+        "SelectedRemediationTasks": "Task di remediation selezionati",
+        "remediation": "Piano di remediation",
+        "remediation_tasks": "Task di remediation filtrati"
+      }
+    },
+    "report_templates": {
+      "actions": {
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "list": "templates report",
+        "new": "Crea nuovo",
+        "show": "template report"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "active.true": "Si",
+        "edit_subtitle": "Modifica i dettagli dei template dei report",
+        "list_subtitle": "Gestisci i template dei report",
+        "new_subtitle": "Crea un nuovo Template dei report",
+        "show_subtitle": "Visualizza e gestisci i dettagli dei template dei report"
+      },
+      "pages": {
+        "active": "Stato",
+        "id": "Id",
+        "report": "Report",
+        "template_id": "Template Id",
+        "title": "Titolo",
+        "updated_at": "ultimo aggiornamento",
+        "xlsx_template.file": "Template XLSX"
+      },
+      "properties": {
+        "footer": "Footer",
+        "header": "Header",
+        "report.campaign-monitor-stats": "Statistiche della campagna di Monitor",
+        "report.campaign-monitor-unassinged": "Campagna Monitor non assegnata",
+        "report.campaigns": "Campagne",
+        "report.remediation": "Remediation",
+        "template_id": "Template Id",
+        "title": "Titolo",
+        "xlsx_template.file": "Template XLSX",
+        "xlsx_validation": "Validazione Associazione campi"
+      }
+    },
+    "reports": {
+      "campaign.campaign_manager": "Responsabile Campagna",
+      "campaign.created_at": "Creato Il",
+      "campaign.description": "Descrizione",
+      "campaign.due_date": "Data Di Scadenza",
+      "campaign.ended_at": "Terminato Il",
+      "campaign.name": "Nome",
+      "campaign.num_closed": "Numero Chiusi",
+      "campaign.num_controls": "Numero Controlli",
+      "campaign.progress": "Progresso",
+      "campaign.remediation_approver": "Approvazione Remediation",
+      "campaign.remediation_manager": "Responsabile Remediation",
+      "campaign.started_at": "Iniziato Il",
+      "campaign.status": "Stato",
+      "campaign.type": "Tipo",
+      "campaign.valutation_level": "Livello Di Valutazione",
+      "campaign_monitor.assigned": "Assegnati",
+      "campaign_monitor.company": "Azienda",
+      "campaign_monitor.done": "Fatto",
+      "campaign_monitor.fullname": "Nome Completo",
+      "campaign_monitor.opened": "Aperti",
+      "campaign_monitor.perc": "Percentuale",
+      "campaign_monitor.rejected": "Rifiutato",
+      "campaign_monitor.roles": "Ruoli",
+      "campaign_monitor.todo": "Da Fare",
+      "campaign_monitor.tot": "Totale",
+      "campaign_monitor.working": "In Valutazione",
+      "campaign_monitor_report": "Report Di Monitoraggio",
+      "campaign_report": "Report Campagna",
+      "campaigndata": "Dati",
+      "company": "Azienda",
+      "domain": "Dominio Applicativo",
+      "metric_tasks": "Attività metriche",
+      "metrictask.action": "Azione",
+      "metrictask.completed": "Completato",
+      "metrictask.cost": "Costo",
+      "metrictask.cost_description": "Descrizione costo",
+      "metrictask.cost_value": "Valore costo",
+      "metrictask.id": "ID attività metrica",
+      "metrictask.last_updated_by": "Ultimo aggiornato da",
+      "metrictask.mandatory": "Obbligatorio",
+      "metrictask.metric": "Metrica",
+      "metrictask.metric_description": "Descrizione metrica",
+      "metrictask.metric_value": "Valore metrica",
+      "metrictask.timing": "Tempistica",
+      "metrictask.timing_description": "Descrizione tempistica",
+      "metrictask.timing_value": "Valore tempistica",
+      "metrictask.updated_at": "Aggiornato il",
+      "metrictask_detail": "Dettaglio attività metrica",
+      "remediation_plan.created_at": "Creato il",
+      "remediation_plan.description": "Descrizione",
+      "remediation_plan.ended_at": "Terminato il",
+      "remediation_plan.remediation": "Piano di Remediation",
+      "remediation_plan.remediation_approver": "Approvazione Remediation",
+      "remediation_plan.remediation_manager": "Responsabile Remediation",
+      "remediation_plan.started_at": "Iniziato il",
+      "remediation_plan.status": "Stato",
+      "remediation_report": "Remediation Report",
+      "remediationplandata": "Dati Piano",
+      "remediationtask": "Attività di rimediation",
+      "task.company_name": "Nome azienda",
+      "task.control": "Controllo",
+      "task.control_code": "Codice del controllo",
+      "task.control_level": "Livello",
+      "task.controlset": "Set controlli",
+      "task.created_at": "Creato il",
+      "task.domain_description": "Descrizione dominio",
+      "task.domain_name": "Nome dominio",
+      "task.expected_metric": "Metrica attesa",
+      "task.expected_metric_description": "Descrizione metrica attesa",
+      "task.expected_metric_value": "Valore metrica attesa",
+      "task.id": "ID attività",
+      "task.last_updated_by": "Ultimo aggiornato da",
+      "task.status": "Stato attività",
+      "task.surveyed_metric": "Metrica rilevata",
+      "task.surveyed_metric_description": "Descrizione metrica rilevata",
+      "task.surveyed_metric_value": "Valore metrica rilevata",
+      "task_users": "Utenti assegnati all'attività",
+      "ticket.applications": "Applicazioni",
+      "ticket.assigned_users": "Utenti Assegnati",
+      "ticket.attachment": "Allegato",
+      "ticket.closed_at": "Chiuso Il",
+      "ticket.company_name": "Nome Azienda",
+      "ticket.control": "Controllo",
+      "ticket.control_code": "Codice Di Controllo",
+      "ticket.control_level": "Livello Di Controllo",
+      "ticket.created_at": "Creato Il",
+      "ticket.domain_description": "Descrizione Dominio",
+      "ticket.domain_name": "Nome Dominio",
+      "ticket.evidence": "Prassi applicata",
+      "ticket.metric": "Metrica",
+      "ticket.metric_description": "Descrizione Metrica",
+      "ticket.metric_value": "Valore Metrica",
+      "ticket.mimetype": "Tipo MIME",
+      "ticket.notes": "Note",
+      "ticket.risk_description": "Descrizione Rischio",
+      "ticket.risk_index": "Indice Di Rischio",
+      "ticket.risk_value": "Valore Rischio",
+      "ticket.size": "Dimensione",
+      "ticket.status": "Stato",
+      "ticket.ticket_id": "ID Ticket",
+      "ticket.user": "Utente",
+      "ticket_details": "Dettagli Ticket",
+      "ticket_metrics": "Metriche del ticket",
+      "unassigned.company": "Azienda",
+      "unassigned.control_code": "Codice Controllo",
+      "unassigned.control_description": "Descrizione",
+      "unassigned.control_set": "Set Di Controlli",
+      "unassigned.domain": "Dominio",
+      "unassigned.id": "Id",
+      "unassigned.users": "Utenti"
+    },
+    "reset-password": {
+      "labels": {
+        "EnterANewPassword": "Inserisci la nuova Password",
+        "EnterCurrentPassword": "Inserisci la Password Attuale",
+        "RetypeTheNewPassword": "Riscrivi la nuova Password",
+        "confirm-password": "Conferma Password",
+        "current-password": "Password Attuale",
+        "new-password": "Nuova Password",
+        "title": "Titolo"
+      },
+      "messages": {
+        "subtitle for {{username}}": "utente emmanuele.nesti@pentaqo.it"
+      }
+    },
+    "riskindexes": {
+      "actions": {
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica indice di rischio",
+        "list": "Indici di rischio",
+        "new": "Nuovo Indice di Rischio",
+        "new-riskvalues": "Aggiungi valore rischio",
+        "show": "Indice di rischio"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica l'indice di rischio selezionato",
+        "list_subtitle": "Gestisci gli indici di rischio",
+        "new_subtitle": "Crea un nuovo indice di rischio",
+        "riskvalues": "Valori di rischio",
+        "show_subtitle": "Visualizza e gestisci i dettagli e gli indici di rischio della metrica"
+      },
+      "messages": {
+        "RiskHelpText": "La colonna 'Ordine' indica la posizione in cui il rishio verrà visualizzata nella tabella di valutazione del controllo, più è altro il suo valore maggiore è il rishio associato alla valutazione"
+      },
+      "pages": {
+        "active": "Stato",
+        "description": "Descrizione",
+        "riskindex": "Indice rischio",
+        "valuetype": "Tipo di valore"
+      },
+      "properties": {
+        "valuetype.PERCENT": "PERCENT",
+        "valuetype.SET": "SET"
+      }
+    },
+    "riskvalues": {
+      "buttons": {
+        "cancel": "Annulla",
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_chooseItemHeader-addRiskValue": "Aggiungi valore di rischio"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addRiskValue": "Aggiungi un nuovo valore di rischio per la metrica selezionata"
+      },
+      "properties": {
+        "description": "Descrizione",
+        "id": "Id",
+        "riskindex_id": "Indice Rischio",
+        "riskorder": "Ordine",
+        "riskvalue": "Valore Rischio"
+      }
+    },
+    "role_attributes": {
+      "labels": {
+        "relations_chooseItemHeader-addRoleAttribute": "Aggiungi un nuovo attributo"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-addRoleAttribute": "Seleziona un set di attributi da aggiungere al ruolo"
+      }
+    },
+    "roles": {
+      "actions": {
+        "edit": "Modifica ruolo",
+        "list": "Ruoli",
+        "new": "Nuovo ruolo",
+        "show": "Ruolo"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica il titolo e/o la descrizione del ruolo selezionato",
+        "list_subtitle": "Gestisci i ruoli",
+        "new_subtitle": "Crea un nuovo ruolo",
+        "role_attributes": "Attributi del ruolo",
+        "show_subtitle": "Visualizza e gestisci i dettagli del ruolo"
+      }
+    },
+    "survey_types": {
+      "actions": {
+        "list": "Lista",
+        "new": "Crea nuovo"
+      },
+      "buttons": {
+        "back-to-dashboard": "Dashboard",
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "list_subtitle": "Elenco sottotitoli",
+        "new_subtitle": "Nuovo sottotitolo",
+        "survey_types": "Tipologie Rilievo"
+      },
+      "properties": {
+        "survey_type": "Tipo di sondaggio"
+      }
+    },
+    "template_parts": {
+      "actions": {
+        "delete": "Elimina",
+        "duplicate": "Duplica",
+        "edit": "modifica componente report",
+        "list": "componenti report",
+        "new": "Crea nuovo",
+        "show": "componenti report"
+      },
+      "buttons": {
+        "back-to-list": "Indietro",
+        "filter": "Filtra",
+        "save": "Salva"
+      },
+      "labels": {
+        "edit_subtitle": "modifica i parametri dei componenti del report",
+        "list_subtitle": "Gestisci i componenti dei report",
+        "new_subtitle": "Crea un componente dei report",
+        "show_subtitle": "visualizza i componenti del report"
+      },
+      "pages": {
+        "id": "Id",
+        "template": "Template",
+        "updated_at": "Aggiornato"
+      }
+    },
+    "ticket_history": {
+      "actions": {
+        "show": "Mostra"
+      },
+      "labels": {
+        "ADDED": "AGGIUNTO",
+        "REJECTED": "RIFIUTATO",
+        "REMOVED": "RIMOSSO",
+        "UPDATED": "AGGIORNATO",
+        "evidence": "Evidence",
+        "filename": "Filename",
+        "metricvalue_id": "Metricvalue Id",
+        "relations_customModalTitle-show": "Dettagli modifica",
+        "status": "Stato"
+      },
+      "messages": {
+        "relations_noRelationRecords": "Non ci sono elementi in \"Ticket History\" associati",
+        "relations_noRelationRecordsTitle": "Non ci sono dati",
+        "show-show": " "
+      },
+      "properties": {
+        "user_id": "Utente",
+        "value": "Valore"
+      }
+    },
+    "ticket_notes": {
+      "actions": {
+        "edit": "Modifica Nota",
+        "list": "Elenco Note",
+        "new": "Nuova Nota",
+        "show": "Nota"
+      }
+    },
+    "tickets": {
+      "actions": {
+        "edit": "Valuta controllo",
+        "list": "Valutazione controlli",
+        "lockTicket": "Prendi in carico",
+        "new": "Nuovo Controllo",
+        "reopen": "Riapri",
+        "show": "Visualizza controllo",
+        "unlockTicket": "Rendi disponibile"
+      },
+      "buttons": {
+        "closeTicket": "Finalizza valutazione",
+        "rejectTicket": "Rifiuta assegnazione",
+        "save": "Salva ed esci"
+      },
+      "labels": {
+        "NotAllFilled": "Non tutti i campi necessari sono stati compilati",
+        "all": "Mostra anche Valutati",
+        "anyuser": "Mostra tutti gli utenti",
+        "attachment.file": "Evidenze allegate",
+        "closeable-campaign_id": "Campagna",
+        "closeable-cp_control_id": "Id controllo",
+        "closeable-domain_id": "Dominio",
+        "company_id": "Id organizzazione",
+        "control": "Titolo controllo",
+        "control_code": "Codice controllo",
+        "costtype_id": "Indice di costo",
+        "description": "Descrizione controllo",
+        "edit_subtitle": "Rivedi i dati e valuta il controllo",
+        "extended_description": "Buona prassi applicata al controllo",
+        "filter_campaigns": "Filtra campagne",
+        "filter_companies": "Filtra organizzazioni",
+        "filter_controls": "Filtra controlli",
+        "filter_domains": "Filtra domini",
+        "filter_users": "Filtra utenti",
+        "last_modification_user_id": "Utente Ultima Modifica",
+        "list_subtitle": "Valuta i controlli",
+        "notes": "Note",
+        "old_editions": "Valutazioni precedenti",
+        "show_subtitle": "Visualizza e gestisci i dettagli del controllo",
+        "status": "Stato",
+        "status-CLOSED": "Valutato",
+        "status-CREATED": "Nuovo",
+        "status-ENDED": "Terminato",
+        "status-OPENED": "Aperto",
+        "status-REJECTED": "Rifiutato",
+        "ticket_history": "Cronologia modifiche",
+        "timingtype_id": "Indice di tempo"
+      },
+      "messages": {
+        "NoAssignedUsers": "Nessun utente assegnato",
+        "TicketCannotBeClosed": "Il controllo non può essere chiuso",
+        "help.attachment.file": "Carica un file di <strong>evidenza</strong>.<br>I formati supportati sono: <ul><li>PDF</li><li>DOC</li><li>DOCX</li><li>JPG</li><li>PNG</li></ul><strong>Dimensione massima 10MB</strong>. Puoi caricare più file contemporaneamente.",
+        "keyPlaceholder": "Seleziona una categoria di applicazioni",
+        "keyValuePropertyDefaultDescription": "Seleziona una categoria di applicazioni ed un suo dettaglio",
+        "select": "Seleziona...",
+        "valuePlaceholder": "Inserisci il dettaglio dell'applicazione"
+      },
+      "properties": {
+        "applications": "Applicazioni",
+        "assigned_users": "Utenti assegnati",
+        "attachment.file": "Evidenze allegate",
+        "audit_class": "Classi di audit",
+        "audit_evaluation": "Rilievo del controllo",
+        "campaign_id": "Campagna",
+        "control": "Titolo controllo",
+        "control_code": "Codice controllo",
+        "description": "Descrizione controllo",
+        "evidence": "Prassi applicata al controllo",
+        "extended_description": "Buona prassi applicata al controllo",
+        "last_modification_user_id": "Utente Ultima Modifica",
+        "metrics": "Metriche",
+        "notes": "Note"
+      }
+    },
+    "tickets-old-edition": {
+      "labels": {
+        "closeable-cp_control_id": "Dettagli controllo",
+        "notes": "Note",
+        "relations_customModalTitle-show": "Dettagli valutazione precedente",
+        "status": "Stato",
+        "status-ASSIGNED": "Assegnato",
+        "status-CLOSED": "Valutato",
+        "status-CREATED": "Nuovo",
+        "status-ENDED": "Terminato",
+        "status-OPENED": "Aperto",
+        "status-REJECTED": "Rifiutato"
+      },
+      "messages": {
+        "show-show": " "
+      },
+      "properties": {
+        "assigned_users": "Utenti assegnati",
+        "attachment.file": "Evidenze allegate",
+        "campaign_id": "Campagna",
+        "evidence": "Prassi applicata al controllo",
+        "last_modification_user_id": "Utente Ultima Modifica",
+        "metrics": "Metriche",
+        "same_attachment": "Stesse evidenze",
+        "same_evidence": "Stessa prassi",
+        "same_metrics": "Stesse metriche",
+        "status": "Stato"
+      }
+    },
+    "timing_types": {
+      "actions": {
+        "edit": "Modifica metrica tempo",
+        "new": "Nuova metrica tempo",
+        "show": "metrica Tempo"
+      },
+      "buttons": {
+        "save": "Salva"
+      },
+      "labels": {
+        "relations_customModalTitle-edit": "Modifica metrica tempo"
+      },
+      "messages": {
+        "edit-edit": " "
+      },
+      "properties": {
+        "timing_order": "ordine",
+        "timing_type": "Nome metrica",
+        "timing_value": "valore"
+      }
+    },
+    "timings": {
+      "actions": {
+        "edit": "Modifica metriche Tempi",
+        "list": "Tempistiche",
+        "new": "Nuova metrica tempi",
+        "show": "Tempistica"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica i dettagli delle tempistiche",
+        "list_subtitle": "Gestisci le tempistiche",
+        "new_subtitle": "Crea nuova metrica tempi",
+        "show_subtitle": "Visualizza e gestisci i dettagli delle tempistiche",
+        "timing_types": "Tipo di Tempistiche"
+      },
+      "messages": {
+        "TimingHelpText": "La colonna 'Ordine' è un numero progressivo, ordina in maniera crescente le etichette di tempo\nIl 'Valore' indica un valore numerico/peso da associare alla metrica"
+      },
+      "properties": {
+        "code": "Codice metrica tempi",
+        "help": "Testo aiuto",
+        "timing": "Descrizione metrica",
+        "timing_order": "Ordine"
+      }
+    },
+    "user_roles": {
+      "actions": {
+        "edit": "Modifica ruolo",
+        "list": "Utenti e Ruoli",
+        "new": "Aggiungi ruolo",
+        "show": "Ruolo utente"
+      },
+      "labels": {
+        "edit_subtitle": "Modifica il titolo e/o la descrizione del ruolo selezionato",
+        "list_subtitle": "Gestisci i ruoli",
+        "new_subtitle": "Crea un nuovo ruolo",
+        "role_attributes": "Attributi del ruolo",
+        "show_subtitle": "Visualizza e gestisci i dettagli del ruolo"
+      }
+    },
+    "user_roles-modal-domain": {
+      "actions": {
+        "Delete": "Delete",
+        "relations_removeRecord": "Rimuovi elemento",
+        "relations_removeRelation": "Rimuovi relazione",
+        "show": "Mostra"
+      },
+      "labels": {
+        "active.true": "Si",
+        "relations_chooseItemHeader-": "Relations Choose Item Header",
+        "relations_customModalTitle-show": "Utenti per dominio",
+        "roles": "Ruoli"
+      },
+      "messages": {
+        "relations_chooseItemSubtitle-": "relations_chooseItemSubtitle-",
+        "relations_noRelationRecords": "Non ci sono elementi in \"Utenti per dominio\" associati",
+        "relations_noRelationRecordsTitle": "Non ci sono dati",
+        "user_roles-modal-domain-show": " "
+      }
+    },
+    "user_roles-modal-user": {
+      "actions": {
+        "delete": "Elimina",
+        "doEnableDisable": "Attiva/Disattiva"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo"
+      }
+    },
+    "users": {
+      "actions": {
+        "bulkSendInvitation": "Invia inviti ai selezionati",
+        "delete": "Elimina",
+        "doDisable": "Disabilita",
+        "doEnable": "Abilita",
+        "edit": "Modifica Utente",
+        "list": "Utenti",
+        "new": "Nuovo Utente",
+        "sendInvitationLink": "Inoltra link di invito",
+        "sendResetLink": "Inoltra Reset Link",
+        "show": "Utente"
+      },
+      "labels": {
+        "active.false": "Disattivo",
+        "active.true": "Attivo",
+        "bulkSendInvitation_subtitle": "Invia email di invito ai seguenti utenti",
+        "customModalTitle-preview": "Anteprima Email",
+        "edit_subtitle": "Modifica i dettagli dell'utente",
+        "list_subtitle": "Gestisci gli utenti",
+        "new_subtitle": "Crea un nuovo utente",
+        "show_subtitle": "Visualizza e gestisci i dettagli dell'utente",
+        "testEmail": "Anteprima Email"
+      },
+      "properties": {
+        "invitation_sent": "Invito Inoltrato"
+      }
+    }
+  }
+}

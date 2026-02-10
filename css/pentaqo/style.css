@@ -1,0 +1,1205 @@
+
+/*
+family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&'
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+      
+*/
+@import url('/css/dinpro.css');
+@import url('/css/rubik.css');
+
+
+.noDataGraph{
+ 
+    text-align: center;
+	justify-content: center;
+    margin-top: 35px;
+    font-size: clamp(1rem, 2vw, 2.5rem);
+    font-weight: bold;
+    color: #666;
+    vertical-align: middle;
+ 
+}
+  
+  /* Effetto al passaggio del mouse */
+  a[data-css^="dashboard-card"]:hover {
+	background-color: #1B365B; /* Colore di sfondo al passaggio del mouse */
+	color: white;
+  }
+  
+  .adminjs_EditorWrapper {
+	border-bottom-width: 1px !important; /* oppure 0 se vuoi eliminarlo */
+	border-bottom-style: solid;
+	border-bottom-color: #ccc; /* cambia colore se necessario */
+  }
+
+/* Rimuove lo sfondo grigio del select disabilitato */
+.adminjs_Select .css-1u1py6q-control {
+    background-color: transparent !important; /* o un altro colore */
+    border-color: #ccc !important; /* opzionale: bordi se vuoi mantenerli */
+    box-shadow: none !important;
+  }
+ 
+  [data-testid="property-show-control"],[data-testid="property-show-control_level"],[data-testid="property-show-control_code"]{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .sc-dmqHEX.kfxxgE.adminjs_Box,
+.sc-gjTGSA.kKTTDD.adminjs_Text {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+  
+.adminjs_H2 {
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  
+.adminjs_H5 {
+    padding-top: 0.5rem !important;
+    margin-top: 0 !important;
+    line-height: 1.2 !important;
+  }
+
+.adminjs_H5 {
+    padding-top: 0.5rem !important;
+  }
+  
+  .adminjs_H5 > section {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+
+[data-css="tickets-record-edit-route-wrapper"] {
+    padding-top: 0.5rem !important;
+  }
+
+  
+/*tolgo visualizzazione elenco a discesa sezione inserimento allegati*/
+[data-testid="dropzone-attachment.file"] > section > section:last-child {
+    display: none;
+  }  
+
+[data-testid="dropzone-attachment.file"] > section > section:nth-child(2) {
+	display: none !important;
+  }
+
+.hideError>section>section>div>div:last-child{
+	display: none !important;
+}
+
+/*colore tasto "rifiuta assegnazione" in valutazione controlli*/
+button[data-testid="button-rejectTicket"] {
+	color: red !important;
+	border-color: red !important;
+}
+button[data-testid="button-rejectTicket"]:hover {
+	background-color: red !important;
+	border-color: white !important;
+	color: white !important;
+	opacity: 0.7 !important;
+}
+
+/*colore tasto "salva ed esci" in valutazione controlli*/
+button[data-testid="button-save"] {
+	color: rgb(0, 92, 169) !important;
+	background-color: transparent !important;
+}
+button[data-testid="button-save"]:hover {
+	background-color: rgb(0, 92, 169) !important;
+	border-color: white !important;
+	color: white !important;
+	opacity: 0.7 !important;
+}
+
+/*colore tasto "finalizza traduzione" in valutazione controlli*/
+button[data-testid="button-closeTicket"] {
+	color: green !important;
+	border-color: green !important;
+}
+button[data-testid="button-closeTicket"]:hover {
+	background-color: green !important;
+	border-color: white !important;
+	color: white !important;
+	opacity: 0.7 !important;
+}
+
+section[data-css="tickets-edit-drawer-footer"] {
+    padding-top: 2% !important;
+}
+
+/*gestione colori x stato attivo/disattivo*/
+span[data-testid="active-boolval-false"] {
+    color: red !important; 
+}
+span[data-testid="active-boolval-true"] {
+		color: rgb(0, 215, 0) !important;
+} 
+
+/*Implementazione codice Rambaldi" */
+div[id^="UNIQUE_KEY_TOOLTIP"] section {
+	width: auto;
+	height: auto;
+}
+
+/*Implementazione codice suggerimento Rambaldi" */
+.container-box,
+[data-css$="treeview-wrapper"],
+[data-css$="-list-table-wrapper"],
+[data-css$="-drawer-content"] {
+    box-shadow: var(--shadows-notes);
+    margin: var(--sizes-sm);
+}
+
+/*Implementazione codice Rambaldi" */
+thead > tr > td [data-testid^="property-filter-"] label {
+    display: none;
+}
+
+/*Gestione sovrapposizione tasto elimina" */
+[data-testid="action-bulkDelete"] {
+	width: 250px !important;
+	display: block !important;
+	position: relative !important;
+	top: -10px !important;
+}
+
+[data-testid="action-bulkDelete"]:hover {
+	background-color: rgb(236, 74, 74) !important;
+}
+
+/* Aumenta la larghezza della colonna "Ruoli" */
+[data-css="roles-role-table-cell"] {
+    width: 300px !important; /* Modifica la larghezza secondo le tue esigenze */
+    max-width: 300px !important;
+    word-wrap: break-word !important; /* Assicura che il contenuto venga gestito correttamente */
+}
+
+/* Aumenta leggermente la larghezza della colonna "Id" */
+[data-css="roles-id-table-cell"] {
+    width: 100px !important; /* Modifica leggermente la larghezza */
+    max-width: 100px !important;
+}
+
+/*rendo nascosto il nome dell'svg sul riquadro dashboard*/
+.sc-gjTGSA.jAMoZm.adminjs_Text > .sc-gjTGSA.jAMoZm.adminjs_Text {
+    display: none !important;
+}
+
+.sc-beqWaB.cmywsV {
+	width: 30px !important;
+	height: 30px !important;
+}
+
+[data-css="help-modal"] {
+	width: 80% !important;
+	height: 80% !important;
+	border-radius: 8px !important;
+}
+
+[data-css="help-box"] {
+	line-height: 25px !important;
+	font-size: 16px !important;
+	margin-left: 3px !important;
+}
+
+/* Media queries per schermi piccoli (max-width: 768px) */
+@media (max-width: 1199px) {
+    .adminjs_DropDown-Stick-right.adminjs_DropDownMenu.adminjs_Box {
+        margin-top: -2.5px !important; /* Ripristina il margine per schermi piÃ¹ piccoli */
+    }
+}
+
+/* Media queries per schermi grandi (min-width: 769px) */
+@media (min-width: 1200px) {
+    .adminjs_DropDown-Stick-right.adminjs_DropDownMenu.adminjs_Box {
+        margin-top: -2px !important; /* Mantiene il margine negativo per schermi piÃ¹ grandi */
+    }
+}
+
+/* Griglia flessibile per i riquadri */
+.sc-dmqHEX.gSuJOG.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    padding: 20px !important;
+    width: 100% !important;
+    max-width: 90vw !important;
+    box-sizing: border-box !important;
+}
+
+/* Layout responsivo per i singoli riquadri all'interno della griglia */
+@media (max-width: 700px) {
+    .sc-dmqHEX.gSuJOG.adminjs_Box > .sc-dmqHEX.fBFXxb.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box > .sc-dmqHEX.dhDzHw.adminjs_Box {
+        flex: 1 1 100% !important; /* Un riquadro per riga */
+    }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+    .sc-dmqHEX.gSuJOG.adminjs_Box > .sc-dmqHEX.fBFXxb.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box > .sc-dmqHEX.dhDzHw.adminjs_Box {
+        flex: 1 1 calc(50% - 15px) !important; /* Due riquadri per riga */
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1699px) {
+    .sc-dmqHEX.gSuJOG.adminjs_Box > .sc-dmqHEX.fBFXxb.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box > .sc-dmqHEX.dhDzHw.adminjs_Box {
+        flex: 1 1 calc(33.33% - 15px) !important; /* Tre riquadri per riga */
+    }
+}
+
+@media (min-width: 1700px) and (max-width: 1999px) {
+    .sc-dmqHEX.gSuJOG.adminjs_Box > .sc-dmqHEX.fBFXxb.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box > .sc-dmqHEX.dhDzHw.adminjs_Box {
+        flex: 1 1 calc(25% - 15px) !important; /* Quattro riquadri per riga */
+    }
+}
+
+@media (min-width: 2000px) {
+    .sc-dmqHEX.gSuJOG.adminjs_Box > .sc-dmqHEX.fBFXxb.adminjs_Box, .sc-dmqHEX.ewBvHZ.adminjs_Box > .sc-dmqHEX.dhDzHw.adminjs_Box {
+        flex: 1 1 calc(20% - 15px) !important; /* Cinque riquadri per riga */
+    }
+}
+
+
+/* Rende fisso il menÃ¹ di navigazione in alto */
+[data-css="topbar"] {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important; /* Mantiene la barra sopra gli altri elementi */
+    height: 60px !important; /* Imposta l'altezza della barra */
+    box-sizing: border-box !important;
+}
+
+/* Aggiunge spazio sotto la barra per evitare che copra i contenuti */
+body {
+    padding-top: 60px !important; /* Deve corrispondere all'altezza della barra */
+	overflow-y: hidden !important;
+	box-sizing: border-box !important;
+}
+
+[data-css="sidebar"] {
+    position: fixed !important;
+	padding-top: 60px !important; /* Deve corrispondere all'altezza della barra */
+	box-sizing: border-box !important;
+}
+
+.pentaqo-dashboard {
+	/*background: url('/images/pentaqo-dashboard.png') no-repeat center center;*/
+	background-color: #1a365a !important;
+}
+
+label::before {
+	content: "*" !important;
+	color: red !important; /* Cambia colore dell'asterisco */
+  }
+
+.pentaqo-dashboard img{
+	width: 300px !important;
+    position: absolute !important;
+    top: 25% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.pittogramma{
+    width: 25px !important;
+    margin-left: 13px !important;
+}
+
+[data-css="sidebar-logo"]{
+    margin-top: 25px !important;
+}
+
+/*[data-css="default-dashboard"] + .adminjs_Box > .adminjs_Box > .adminjs_Box {
+    background-color: #F5F5F5 !important;
+}*/
+
+[data-css="default-dashboard"] + .adminjs_Box > .adminjs_Box > .adminjs_Box:hover {
+    border-color: #1a365a !important;
+}
+
+/*sfondo homepage
+[data-css="default-dashboard"] + .adminjs_Box {
+	background-color: yellow !important;
+}*/
+
+.pentaqo-dashboard h2 {
+	font-size: xx-large !important;
+	text-align: center !important;
+}
+
+[data-css$="-list-table-wrapper"]{
+    margin-bottom: 100px !important;
+}
+
+[data-css$="-record-show-route-wrapper"] [data-css$="-show-drawer-content"] .adminjs_Box {
+	border: none !important;
+}
+
+h2 {
+	text-transform: uppercase !important;
+	font-size: x-large !important;
+    font-weight: bold !important;
+	margin-left: 20px !important;
+}
+
+/* Rimuove la manina dalle celle */
+/*
+[data-css="relations-table"] .adminjs.adminjs_TableCell {
+	cursor: default !important; 
+}
+\*
+
+/* Mantiene la manina sui bottoni */
+/*
+.adminjs_Button {
+	cursor: pointer !important; 
+}
+*\
+
+/*[data-css$="-record-show-route-wrapper"] [data-css$="-show-drawer-content"] > .adminjs_Box:nth-child(-n+3) section {
+    background-color: #F7F7F7 !important; 
+	padding: 2px !important;
+}*/
+
+[data-css$="-record-show-route-wrapper"] [data-css$="-show-drawer-content"] > .adminjs_Box:nth-child(-n+3) section label {
+    padding-bottom: 7px !important;
+}
+
+/*
+@media screen and (min-width: 577px) {
+    .kfxxgE {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 10px !important;
+    }
+}
+*/
+
+.eyqVnr {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 4px !important;
+}
+
+[data-css$="-list"]{
+	padding-top: 18px !important;
+}
+
+.adminjs_Badge{
+	border: none !important;
+	color:#1B365B !important;
+}
+
+
+.adminjs_TableHead tr:first-child {
+    background-color: #F2F2F2 !important;
+}
+
+[data-css="sidebar-resources"],
+a.adminjs_Box div {
+	font-family: var(--secondary-font) !important;
+}
+
+[data-css="sidebar-resources"]  section > ul > li > a.adminjs_Box div, .adminjs_TableHead td, .adminjs_H2{
+	text-transform: uppercase !important;
+}
+
+h5:not([data-css="default-dashboard"] + .adminjs_Box > .adminjs_Box > .adminjs_Box h5, [id^="UNIQUE_KEY_MODAL_"] > .adminjs_Box > * > h5.adminjs_H5) {
+    font-size: medium !important;
+    margin-left: 20px !important;
+}
+
+[id^="UNIQUE_KEY_MODAL_"] > .adminjs_Box > * > h5.adminjs_H5, [id^="UNIQUE_KEY_MODAL_"] > .adminjs_Box > * > .adminjs_Text {
+    margin-left: 0px !important;
+}
+
+[id^="UNIQUE_KEY_MODAL_"] > .adminjs_Box > * > h5.adminjs_H5 {
+	font-weight: bold !important;
+}
+  
+
+.adminjs_TableHead td {
+	text-transform: uppercase !important;
+}
+
+.adminjs_Label {
+	text-transform: uppercase !important;
+	font-weight: var(--font-weights-bold) !important;
+}
+
+.adminjs_Breadcrumbs {
+	font-family: var(--secondary-font) !important;
+	font-weight: var(--font-weights-light) !important;
+}
+
+.adminjs_Button {
+	font-family: var(--secondary-font) !important;
+}
+
+:not([data-css^="campaign-monitor-"]).adminjs_TableCell {
+	padding: 0px var(--space-lg) !important;
+}
+
+/*
+BlackMagic: per qualche oscuro motivo a volte ignora
+   il size impostato in adminjs_TableCell e va forzato cosi
+*/
+[data-css$="-head-row"].adminjs_TableRow .adminjs_TableCell {
+	min-height: var(--sizes-x3) !important;
+	height: var(--sizes-x3);
+}
+
+.adminjs_TableHead td {
+	font-family: var(--secondary-font), sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+td.options {
+	padding: 0 var(--space-sm) !important;
+}
+
+/* disable links for relations in relations-table */
+/*[data-css="relations-table"] tbody td[data-css$="-cell"] a {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: inherit
+}*/
+
+[data-css$="-button"] {
+	font-family: var(--secondary-font) !important;
+}
+
+
+[data-css="parameters-tabs"] {
+	border: 1px solid var(--color-separator);
+	box-shadow: var(--shadows-login);
+}
+
+[data-css="style-dropzone"] .adminjs_MessageBox > .adminjs_Box,
+[data-css="locale-dropzone"] .adminjs_MessageBox > .adminjs_Box {
+	width: 500px !important;
+	height: 64px !important;
+}
+
+.container-box,
+[data-css$="treeview-wrapper"],
+[data-css$="-list-table-wrapper"],
+[data-css$="-drawer-content"]{
+    border: 0px solid #1a365a;
+    box-shadow: var(--shadows-notes); 
+}
+/*
+[data-css$="-show-drawer-content"] > section > section:not(:last-child) {
+	width: 20vw !important;
+}
+*/
+
+[data-css^="cp_controls-edit-"] {
+	margin-left: var(--space-sm);
+	margin-right: var(--space-sm);
+}
+
+[data-css="cp_controls-control-cell"] {
+	white-space: normal !important;
+}
+[data-css="cp_controls-control-cell"] > section {
+	max-width: 30vw;
+}
+
+[data-css$="-num_controls-table-cell"],
+[data-css$="-progress-table-cell"] {
+	text-align: right;
+}
+
+[data-css$="campaign-status-table-cell"],
+[data-css$="tickets-status-cell"] {
+	text-align: center;
+}
+[data-css$="tickets-status-cell"] > section {
+	margin: 0 auto!important;
+	width: 24px;
+}
+
+[data-css$="-action-header-buttons"] {
+	max-width: 60%;
+	text-align: right;
+}
+[data-css$="-action-header-buttons"] > section > a {
+	margin-bottom: var(--space-md);
+	margin-right: 0px !important;
+	margin-left: var(--space-md) !important;
+}
+
+:not(#drawerPortal) > section[data-css$="-show-drawer-content"] > section > section:has(section section:only-child) {
+    margin: var(--space-sm);
+}
+:not(#drawerPortal) > section[data-css$="-show-drawer-content"] > section > section:has(section :not(section:only-child)) {
+    margin: var(--space-sm);
+	padding: var(--space-sm) var(--space-md);
+    letter-spacing: 0.00938em;
+    cursor: text;
+    -webkit-box-align: center;
+    align-items: center;
+    border-top-left-radius: var(--radii-md);
+    border-top-right-radius: var(--radii-md);
+    transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.04);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+section[data-css$="-extra-data"] section[data-testid^="property-"] {
+	margin: var(--space-xs) 0 0 0 !important;
+	padding: var(--space-sm) var(--space-md);
+    letter-spacing: 0.00938em;
+    cursor: text;
+    -webkit-box-align: center;
+    align-items: center;
+    border-top-left-radius: var(--radii-md);
+    border-top-right-radius: var(--radii-md);
+    transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+:not(#drawerPortal) > section[data-css$="-show-drawer-content"] > section > section:has(section section[data-css$='extra-data']) {
+	background-color: transparent !important;
+	padding: 0px !important;
+}
+
+table[data-css="relations-table"] {
+	background-color: rgba(255,255,255,0.75);
+	table-layout: 'auto';
+}
+
+
+.treeview {
+	width: 100%;
+}
+
+.treeview button[data-testid="action-delete"] {
+	height: initial !important;
+	padding: 0 !important;
+}
+
+.treeview li > section {
+	margin-bottom: var(--space-sm) !important;
+	padding: var(--space-xs) !important;
+}
+.treeview li > section.selected span.searchResult,
+.treeview li > section:hover {
+	background-color: rgba(0, 92, 169, 0.2);
+}
+.treeview li > section:hover section {
+    color: rgb(0, 92, 169) !important;
+}
+
+strong {
+	font-weight: var(--font-weights-bold);
+}
+
+[data-testid$="-boolval-false"] {
+	color: var(--colors-error) !important;
+	border: 1px solid var(--colors-error-dark) !important;
+}
+[data-css$="-list-active"] div[data-css="no"] a {
+    background-color: var(--colors-error) !important;
+}
+[data-testid$="-boolval-true"] {
+	color: var(--colors-success) !important;
+	border: 1px solid var(--colors-success-dark) !important;
+}
+[data-css$="-list-active"] div[data-css="yes"] svg {
+    background-color: var(--colors-success) !important;
+}
+
+[data-css^="ticket_notes-show"] section {
+	margin-bottom: var(--space-sm);
+}
+[data-css^="ticket_notes-show"] .adminjs_Label {
+	font-size: smaller;
+}
+
+[data-css^="ticket_notes-notes-item"] {
+	padding: var(--space-sm) var(--space-md);
+	box-shadow: var(--shadows-notes);
+}
+
+[data-css="tickets-edit-drawer-content"] [aria-disabled="true"],
+[data-css="tickets-edit-drawer-content"] .adminjs_DatePicker,
+[data-css="tickets-edit-drawer-content"] textarea:disabled,
+[data-css="tickets-edit-drawer-content"] input:disabled {
+	background-color: rgba(0, 0, 0, 0.04);
+	color: var(--color-grey100)
+}
+
+[data-css="controls-inplan-table"] td[data-property-name="id"] {
+	min-width: 4rem;
+}
+
+[data-css$="-table-head-row"] > td > a {
+	font-family: var(--secondary-font) !important;
+	font-weight: var(--font-weights-normal) !important;
+	white-space: normal;
+    word-break: break-word;
+}
+
+[data-testid="property-list-section"] > span {
+	text-transform: lowercase !important;
+}
+
+thead > tr > td [data-testid^="property-filter-"] label,
+[data-css$="-table-head-row-filter"] label {
+	display: none;
+}
+[data-css$="-table-head-row-filter"] td > section > div {
+	text-transform: initial !important;
+	padding-top: var(--sizes-md);
+	padding-bottom: var(--sizes-md) !important;
+	margin-bottom: 0px !important;
+}
+
+[data-css="campaign-revision-table"] {
+	font-size: 50%;
+}
+
+[data-css="remediation_plans-new-form-scrollable"] [data-css^="remediation_plans-edit"] > div {
+	margin-bottom: 0 !important;
+}
+
+/***
+ ***/
+tbody[data-css="controlsets-table-body"] td[data-property-name="controltype"] {
+    width: 5rem;
+}
+
+section[data-css="metrics-show-std_expected_value"] {
+	width: 20vw;
+}
+
+section[data-css="controlsets-show-drawer-content"] > section:nth-child(2) section[data-css^="controlsets-show-"] > section > section,
+section[data-css="controls-show-drawer-content"] > section:nth-child(3) section[data-css^="controls-show-"] > section > section,
+section[data-css="controls-show-drawer-content"] > section:nth-child(4) section[data-css^="controls-show-"] > section > section,
+section[data-css="controls-show-drawer-content"] > section:nth-child(5) section[data-css^="controls-show-"] > section > section {
+	margin-right: var(--spacing) !important;
+}
+
+
+.controls-and-attributes-table-view {
+	margin: 0;
+	margin-top: var(--space-xl);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100%;
+}
+
+.controls-and-attributes-table-wrapper .adminjs_TableCell {
+	padding: 2px 6px !important;
+}
+.controls-and-attributes-table-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.controls-and-attributes-table-wrapper td,
+.side-data-box td > div{
+	font-size: var(--font-sizes-xs) !important;
+	font-weight: var(--font-weights-light);
+	text-align: center;
+}
+.header-box td,
+.data-box td {
+	width: 5vw;
+	min-width: 5vw;
+	max-width: 5vw;
+	overflow: hidden;
+	font-weight: var(--font-weights-normal) !important;
+	line-height: var(--line-heights-md);
+	height: 18px;
+}
+.side-data-box td,
+.side-data-box td > div
+ {
+	text-align: left !important;
+	overflow: hidden;
+	line-height: var(--line-heights-md);
+	height: 18px;
+}
+.hovered {
+   background-color: rgba(0,92,169,0.15) !important;
+}
+.empty-attr {
+   background-color: rgba(230,126,34,0.15) !important;
+}
+
+.controls-and-attributes-table-wrapper {
+	display: grid;
+	grid-template-areas: 'sh h' 'sd d' !important;
+	grid-template-rows: auto auto;
+}
+.container-box {
+	padding: 1rem;
+}
+
+.side-header-box {
+	width: 28vw;
+	grid-area: sh;
+}
+
+.header-box {
+	grid-area: h;
+	margin-left: 0;
+	margin-right: 15px;
+	overflow-x: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.header-box::-webkit-scrollbar {
+	display: none;
+}
+.side-data-box {
+	width: 28vw;
+	height: 388px;
+	grid-area: sd;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.side-data-box::-webkit-scrollbar {
+	display: none;
+}
+.data-box {
+	height: 95%;
+	grid-area: d;
+	max-height: 430px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+.no-scroll {
+	overflow: hidden !important;
+}
+.scroll-y {
+	overflow-y: scroll !important;
+}
+
+.headCol {
+    width: 20vw;
+	min-width: 20vw;
+	max-width: 20vw;
+	padding: 14px 6px !important;
+	font-weight: var(--font-weights-normal)!important;
+}
+
+.has-attr {
+	background-color: #5c946e !important;
+}
+
+.has-attr.hovered,
+.has-attr:hover {
+	background-color: rgba(0, 93, 168, 0.25) !important;
+}
+
+.data-box tr:not(.empty-attr) td.odd,
+.header-box td.odd {
+	background-color: rgba(211, 211, 211, 0.36);
+}
+
+.data-box td.even,
+.header-box td.even {
+	background-color: inherit;;
+}
+
+[data-css="modal-container"] {
+	height: 90%;
+	overflow-y: auto;
+	padding: var(--space-md) 0;
+}
+
+.campaign-ticket-user-data {
+	height: var(--sizes-max-scrollable-height);
+}
+.domain-line {
+	display: flex;
+	flex-direction: row;
+	background-color:rgba(0, 93, 168, 0.4);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 1px;
+}
+.company-line,
+.controlplan-line,
+.controlset-line {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 1px;
+}
+.company-line {
+	background-color: rgba(0, 93, 168, 0.2);
+}
+.controlplan-line {
+	background-color: rgba(0, 93, 168, 0.1);
+}
+.controlset-line {
+	background-color: rgba(211, 211, 211, 0.36);
+}
+
+.missing {
+	background-color: rgba(200, 30, 30, 0.25); 
+}
+
+.controlset-line.hidden { display: none;}
+.controlplan-line.hidden { display: none;}
+.company-line.hidden { display: none;}
+.ticket-line.hidden { display: none;}
+
+.ticket-line {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid rgba(0,0,0,0.03)
+}
+.ticket-line:even {
+	background-color: rgba(0, 93, 168, 0.04);
+}
+.ticket-line .adminjs_Box {
+	text-align: left;
+	margin: var(--space-xs);
+}
+.ticket-line .adminjs_Box:nth-child(1) {
+	width: 10%;
+}
+.ticket-line .adminjs_Box:nth-child(2) {
+	width: 40%;
+}
+.ticket-line .adminjs_Box:nth-child(3) {
+	width: 30%;
+}
+.ticket-line .adminjs_Box:nth-child(4) {
+	width: 20%;
+	overflow: hidden;
+}
+
+
+/***** spinkit.css *****/
+.sk-wave {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.sk-wave-rect {
+	height: 100%;
+	width: 15%;
+	animation: sk-wave 1.2s infinite ease-in-out;
+	&:nth-child(1) { animation-delay: -1.2s; }
+	&:nth-child(2) { animation-delay: -1.1s; }
+	&:nth-child(3) { animation-delay: -1.0s; }
+	&:nth-child(4) { animation-delay: -0.9s; }
+	&.sk-wave-rect:nth-child(5) { animation-delay: -0.8s; }
+}
+
+@keyframes sk-wave {
+
+	0%,
+	40%,
+	100% {
+		transform: scaleY(0.4);
+	}
+
+	20% {
+		transform: scaleY(1);
+	}
+}
+
+
+/*** AGGIUNTI DA ROBERTO v1.1.8 ***/
+div[id^="UNIQUE_KEY_MODAL"] > section {
+	z-index: 200 !important;
+}
+[data-css="player-remediation_plans-close_note-box"] button:first-child {
+	margin-right: 48px;
+}	
+[data-css="player-remediation_plans-close_note-box"] button:last-child {
+	margin-left: 48px;
+}	
+
+[data-css="help-box"] {
+	font-family: var(--secondary-font) !important;
+	font-weight: var(--font-weights-light) !important;
+	border: 1px solid var(--color-separator);
+
+	& h5 {
+		font-family: var(--secondary-font) !important;
+		font-weight: var(--font-weights-bold) !important;
+		color: var(--color-primary) !important;
+		padding-left: 0px;
+		margin-left: 0px !important;
+	}
+
+	& p {
+		font-weight: 200;
+		color:rgb(0, 92, 169)
+	}
+
+	& ul {
+		padding-left: 20px;
+	}
+}
+
+.hideError > section > section > div > div:last-child:empty {
+	display: none !important;
+}
+
+table[data-testid="list-table"] caption {
+	& > section {
+		& > div {
+			width: 150px !important;
+		}
+		& > section {
+			width: 100% !important;
+			& a {
+				width: auto;
+				display: inline-block !important;
+				position: relative !important;
+				top: calc(-1 * var(--sizes-md)) !important;
+				&:hover {
+					background-color: var(--colors-error-dark) !important;
+				}
+			}
+		}
+	}
+}
+
+
+div[data-testid^="new_assets."],
+div[data-testid^="acm_link."] {
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	padding-bottom: 0px !important;
+	padding-top: var(--space-md) !important;
+	padding-left: var(--space-md) !important;
+	padding-right: var(--space-md) !important;
+	& > div > section > div {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 8px;
+		& > label {
+			width: 1rem;
+			text-align: right;
+		}
+		& > div:nth-child(2) {
+			flex-grow: 1;
+			margin-bottom: 0px !important;
+		}
+	}
+	& > button {
+		margin-top: 0px !important;
+	}
+}
+
+div[class*="__control"] {
+	background-color: transparent !important;
+}
+div[class*="__menu-notice"],
+div[class*="__option"] {
+	font-family: var(--font) !important;
+	font-size: var(--font-sizes-default) !important;
+}
+
+[data-css="tickets-show-extra-data"] > section {
+        & > section:has(section[data-css^="cp_controls-show-"]:empty) {
+                display: none !important;
+        }
+}
+
+[data-css="ccp_tickets-domain_id-cell"] > section > section > div,
+[data-css="tickets-domain_id-cell"] > section > section > div {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 8vw;
+}
+[data-css=ccp_tickets-list-control] > div,
+[data-css="ccp_tickets-company_id-cell"] > section > section > div,
+[data-css="tickets-company_id-cell"] > section > section > div {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 15vw;
+}
+[data-testid="property-header-tickets-control_code"] {
+	max-width: 5vw;
+	text-overflow: '
+}
+[data-css="tickets-table-head-row-filter"] > td:nth-child(3),
+[data-css="ccp_tickets-list-control_code"] > div,
+[data-css="tickets-list-control_code"] > div {
+	text-overflow: ellipsis;
+	max-width: 5vw !important;
+	min-width: 5vw !important;
+	overflow: hidden;
+}
+
+[data-css=tickets-list-cp_control_id] > section > div {
+	text-overflow: ellipsis;
+	max-width: 25vw !important;
+	min-width: 25vw !important;
+	overflow: hidden;
+}
+
+section[data-css^="acm_campaigns-show-new_assets"],
+section[data-css^="acm_campaigns-show-acm_link"],
+section[data-css^="acm_plans-auto-show-new_assets"],
+section[data-css^="acm_plans-auto-show-acm_link"],
+section[data-css^="acm_plans-manual-show-acm_link"] {
+	label {
+		display: inline-block !important;
+		margin-right: var(--space-lg);
+		color: inherit !important;
+	}
+	a {
+		display: inline-block; /* or block or flex depending on layout */
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 95%;
+	}
+}
+form[data-css="acm_plans-manual-edit-form"],
+form[data-css="acm_plans-auto-edit-form"] {
+	label[required]::before {
+		display: none !important;
+	}
+	label[disabled] {
+		color: inherit !important;
+	}
+	div[class*="__control--is-disabled"] {
+		border-color: #BBC3CB !important;
+	}
+	textarea:disabled,
+	div[class*='--is-disabled'] {
+		color: var(--colors-text) !important;
+		background-color: inherit !important;
+	}
+	input:disabled {
+		background-color: inherit !important;
+		color: var(--colors-text) !important;
+	}
+	button[data-testid="delete-item"],
+	button[data-testid="acm_link-add"] {
+		display: none !important;
+	}
+}
+
+tbody[data-css="relations-table-body"] [data-css="acm_plans-list-description"] > div {
+	max-width: 20vw !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+div[data-testid^="new_assets."],
+div[data-testid^="acm_link."] {
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	padding-bottom: 0px !important;
+	padding-top: var(--space-md) !important;
+	padding-left: var(--space-md) !important;
+	padding-right: var(--space-md) !important;
+	& > div > section > div {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 8px;
+		& > label {
+			width: 1rem;
+			text-align: right;
+		}
+		& > div:nth-child(2) {
+			flex-grow: 1;
+			margin-bottom: 0px !important;
+		}
+	}
+	& > button {
+		margin-top: 0px !important;
+	}
+}
+
+
+section[data-css^="acm_campaigns-show-new_assets"],
+section[data-css^="acm_campaigns-show-acm_link"],
+section[data-css^="acm_plans-auto-show-new_assets"],
+section[data-css^="acm_plans-auto-show-acm_link"],
+section[data-css^="acm_plans-manual-show-acm_link"] {
+	label {
+		display: inline-block !important;
+		margin-right: var(--space-lg);
+		color: inherit !important;
+	}
+	a {
+		display: inline-block; /* or block or flex depending on layout */
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 95%;
+	}
+}
+form[data-css="acm_plans-manual-edit-form"],
+form[data-css="acm_plans-auto-edit-form"] {
+	label[required]::before {
+		display: none !important;
+	}
+	label[disabled] {
+		color: inherit !important;
+	}
+	div[class*="__control--is-disabled"] {
+		border-color: #BBC3CB !important;
+	}
+	textarea:disabled,
+	div[class*='--is-disabled'] {
+		color: var(--colors-text) !important;
+		background-color: inherit !important;
+	}
+	input:disabled {
+		background-color: inherit !important;
+		color: var(--colors-text) !important;
+	}
+	button[data-testid="delete-item"],
+	button[data-testid="acm_link-add"] {
+		display: none !important;
+	}
+}
+
+tbody[data-css="relations-table-body"] [data-css="acm_plans-list-description"] > div {
+	max-width: 20vw !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+td:has(section>div[data-type="filter-datetime"]) {
+    max-width: 9rem !important; /* fake, ma di fatto se metto 9.2rem si espande troppo */
+	min-width: 9rem !important; /* fake, ma di fatto se metto 9.2rem si espande troppo */
+	& > section > div {
+		min-width: 9.2rem;
+    	max-width: 9.2rem;
+	}
+}
+
+[data-css="tickets-show-extra-data"] > section {
+	& > section:has(section[data-css^="cp_controls-show-"]:empty) {
+		display: none !important; 
+	}
+}
+
+.react-datepicker-wrapper input {
+	font-family: var(--font);
+	font-size: var(--font-sizes-default);
+}
+
