@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width={width} height={height} viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg  viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle cx="76" cy="76" r="76" fill="white" />
     <circle cx="93.3162" cy="59.0974" r="16.2556" fill="#3040D6" />
     <path fillRule="evenodd" clipRule="evenodd" d="M72.5449 33.9231C74.0884 31.277 77.9116 31.277 79.4551 33.9231L119.491 102.556C121.047 105.223 119.123 108.571 116.036 108.571H35.9641C32.877 108.571 30.9535 105.223 32.509 102.556L72.5449 33.9231Z" fill="white" stroke="#3B3552" strokeWidth="1.5" />
